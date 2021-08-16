@@ -1,0 +1,109 @@
+.react-tabs {
+    width: 100%;
+    padding: 0 5px;
+    position: relative;
+    left: 20px;
+    width: calc(100% - 40px);
+    overflow-x: auto;
+}
+.react-tabs__tabs {
+    text-align: center;
+    width: 100%;
+    background: #f9fafc;
+    box-shadow: 0 0px 2px 1px rgba(46, 59, 80, 0.2);
+    margin-left: 0;
+    margin-bottom: 0;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: unset;
+}
+
+.react-tabs__simple-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: unset;
+    position: relative;
+    white-space: nowrap;
+
+    &-item {
+        list-style: none;
+        color: rgba(46, 59, 80, 0.6);
+        font-family: GalanoGrotesque;
+        cursor: pointer;
+
+        &-active {
+            color: #ff0080;
+            border-bottom: 2px solid #ff0080;
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .simple-pill {
+        font-size: 13px;
+        font-family: "Galano Medium";
+        margin: 5px;
+    }
+}
+
+.react-tabs__active-tab,
+.react-tabs__tab {
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    padding: 0 30px;
+    color: #c0c4ca;
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.51px;
+    border-radius: 21px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+    .pill {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 8.5px;
+      background-color: #f15b5b;
+      color: white;
+      font-family: GalanoGrotesque;
+      top: 3px;
+      right: 2px;
+      line-height: 18px;
+      text-align: center;
+      font-size: 12px;
+      z-index: 1000;
+    }
+}
+.react-tabs__tab:last-child  {
+    margin-right: 0px;
+}
+.react-tabs__active-tab {
+    position: absolute;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+    width: 33.3333%;
+    background: rgb(31, 154, 255);
+    box-shadow: 0 0px 9px 3px rgba(46, 59, 80, 0.2);
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+@media (max-width: 400px) {
+    .react-tabs__tab,
+    .react-tabs__active-tab {
+        padding: 0 0px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,71 @@
+.description-button {
+  height: 141px;
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 110px auto 100px;
+  grid-template-rows: 1fr;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.description-button__left-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-button__right-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-button__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.description-button__text1 {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  color: #2e3b50;
+}
+.description-button__text2 {
+  opacity: 0.6;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: -0.9px;
+  color: #2e3b50;
+}
+.description-button__text2 blue,
+.description-button__text1 blue {
+  color: #1f9aff;
+}
+.description-button__text2 purple,
+.description-button__text1 purple {
+  color: #8f63de;
+}
+.description-button__text2 coral,
+.description-button__text1 coral {
+  color: #f15b5b;
+}
+.description-button__back {
+  font-size: 20px;
+  color: #2e3b50;
+  transform: scaleX(-1);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .description-button {
+    grid-template-rows: 219px;
+    height: 219px;
+  }
+}

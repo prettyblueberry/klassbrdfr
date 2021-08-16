@@ -1,0 +1,47 @@
+.file-attachment-component {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 21px 16px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.file-attachment-component-icon {
+  width: 30px;
+  height: 30px;
+  background: #00b7ce;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-right: 10px;
+  color: #fff;
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+}
+.file-attachment-component-file-name {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.1px;
+  color: #2e3b50;
+  text-align: left;
+}
+.file-attachment-component-file-size {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #c0c4ca;
+  text-align: left;
+}

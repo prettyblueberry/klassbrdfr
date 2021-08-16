@@ -1,0 +1,42 @@
+.back-button {
+  display: inline-block;
+  color: #2d3a53;
+  opacity: 0.6;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.4
+  }
+  .icon {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+
+}
+
+.back-button__absolute {
+
+  position: absolute;
+  left: 55px;
+  top: 55px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2e3b50;
+  cursor: pointer;
+
+}
+.back-button__label {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: -0.5px;
+}

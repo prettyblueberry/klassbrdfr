@@ -1,0 +1,67 @@
+.statistic-counts-message-multimedia {
+  padding: 40px;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+
+  > div {
+    cursor: pointer;
+  }
+}
+.statistic-counts-message-multimedia__block {
+  margin-right: 60px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statistic-counts-message-multimedia__percent {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+.statistic-counts-message-multimedia__count {
+  font-family: GalanoGrotesque;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+.statistic-counts-message-multimedia__label {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #2d3a53;
+}
+.statistic-counts-message-multimedia__block-views {
+  color: #ffb53a;
+}
+.statistic-counts-message-multimedia__block-signature {
+  color: #f15b5b;
+}
+.statistic-counts-message-multimedia__block-comments {
+  color: #00b7ce;
+}
+.statistic-counts-message-multimedia__block-reactions {
+  color: #8f63de
+}

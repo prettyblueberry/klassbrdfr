@@ -1,0 +1,84 @@
+.class-item-left {
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  .class-item-left__popup {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+}
+.class-item-left__icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 13px;
+}
+.class-item-left__name {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #2e3b50;
+  margin-bottom: 1px;
+}
+.class-item-left__teacher {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: rgba(46, 59, 80, 0.6);
+  b {
+    color: #2e3b50;
+  }
+  margin-bottom: 20px;
+}
+.class-item-left__id {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: rgba(46, 59, 80, 0.6);
+}
+.class-item-left__menu-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+.class-item-left__dnd-active,
+.class-item-left__dnd-inactive {
+  position: absolute;
+  left: 23px;
+  top: 23px;
+  width: 26px;
+  height: 26px;
+  cursor: move;
+}
+.class-item-left__dnd-active {
+  display: none;
+}
+.class-item-link--dragged {
+  .class-item-left__dnd-active {
+    display: inline-block;
+  }
+  .class-item-left__dnd-inactive {
+    display: none;
+  }
+}

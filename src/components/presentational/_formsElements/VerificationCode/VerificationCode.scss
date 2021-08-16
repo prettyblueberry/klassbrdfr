@@ -1,0 +1,24 @@
+
+.verification-code {
+  margin-bottom: 14px;
+}
+.verification-code__input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #1f9aff;
+  border-radius: 0 !important;
+  display: inline-block;
+  margin-right: 10px;
+  background: #ecf0f1;
+  color: black;
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  padding: 0px;
+  text-align: center;
+  outline-width: 0;
+  height: 50px;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,122 @@
+@import '../../../../themes/light/colors';
+
+.two-grid-layout {
+  min-width: 992px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: $color-page;
+  .small-purple {
+      width: 14.3px;
+      height: 33px;
+      transform: rotate(115deg);
+      background-color: #8f63de;
+      position: absolute;
+      right: -7px;
+      top: 300px;
+  }
+
+  .small-turquoise-blue {
+      width: 7.4px;
+      height: 7.4px;
+      transform: rotate(-337deg);
+      background-color: #00b7ce;
+      position: absolute;
+      right: 153px;
+      top: 117px;
+  }
+
+  .small-coral {
+      width: 8px;
+      height: 8px;
+      transform: rotate(-46deg);
+      background-color: #f15b5b;
+      position: absolute;
+      top: 100px;
+      left: 170px;
+  }
+  .small-butterscotch {
+      width: 29.8px;
+      height: 29.8px;
+      border-radius: 14.9px;
+      transform: rotate(-361deg);
+      background-color: #ffb53a;
+      position: absolute;
+      top: 270px;
+      left: -17px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+
+    align-content: center;
+
+    width: 100%;
+    padding: 50px 0;
+    background-color: $color-page;
+  }
+  .left {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 325px;
+    margin-left: 0px;
+    margin-right: 30px;
+    background-color: $color-background;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 790px;
+    background-color: $color-background;
+    border-radius: 5px;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1100px) {
+  .two-grid-layout {
+    min-width: unset;
+    .center {
+      height: 100%;
+      padding-bottom: 0;
+    }
+    .left {
+      display: none;
+    }
+    .right {
+      width: 100%;
+      padding: 0 30px;
+    }
+    .small-purple {
+      right: 14px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .two-grid-layout {
+    .center {
+      width: 1024px !important;
+    }
+    .right {
+      height: 1000px !important;
+    }
+  }
+  .signup__two_grid_layout {
+    .right {
+      height: auto !important;
+    }
+    .top,
+    .navbar-bottom {
+      width: 1024px;
+    }
+  }
+}

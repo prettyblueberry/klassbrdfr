@@ -1,0 +1,112 @@
+.sms-messages-right {
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: solid 1px rgba(46, 59, 80, 0.1);
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 110px auto 130px;
+  grid-auto-rows: 1fr;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  box-sizing: border-box;
+}
+.sms-messages-right__text,
+.sms-messages-right__icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sms-messages-right__text {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sms-messages-right__check {
+  position: relative;
+}
+.sms-messages-right__checked {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #1f9aff;
+  color: #fff;
+  .icon:before {
+    display: block;
+  }
+}
+.sms-messages-right__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: -0.6px;
+  color: #8f63de;
+}
+.sms-messages-right__h2 {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.8px;
+  color: #2e3b50;
+  .icon {
+    transform: scaleX(-1);
+    color: #1f9aff;
+    display: inline-block;
+  }
+  b {
+    font-weight: 600;
+  }
+}
+.sms-messages-right-checked {
+  border: solid 3px #1f9aff;
+  background-color: rgba(31, 154, 255, 0.1);
+}
+.sms-messages-right__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 30px;
+}
+.sms-messages-right__count {
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  text-align: right;
+  color: #1f9aff;
+  display: inline-block;
+}
+.sms-messages-right__h3 {
+  width: 68px;
+  height: 20px;
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -0.9px;
+  text-align: right;
+  color: rgba(#1f9aff, 0.6);
+  display: inline-block;
+}

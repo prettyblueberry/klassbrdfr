@@ -1,0 +1,56 @@
+.list-step3 {
+  margin-top: 10px;
+  position: relative;
+}
+.list-step3__wrapper {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.csv-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.csv-panel-left {
+  display: inline-block;
+}
+.csv-panel-left-text {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.9px;
+  color: #2a2d63;
+}
+.csv-panel-left-count {
+  display: inline-block;
+  border-radius: 16px;
+  background-color: rgba(#008fff, 0.2);
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #008fff;
+  margin-left: 10px;
+  padding: 4px 10px;
+}
+.list-step3__shadow {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 92px;
+  width: 100%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
+}

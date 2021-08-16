@@ -1,0 +1,39 @@
+.progress-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  svg {
+    shape-rendering: geometricprecision;
+  }
+  .klassicon-link {
+    width: 28px;
+    height: 28px;
+    background: #1f9aff;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 14px;
+    position: absolute;
+    bottom: -11px;
+    left: 26px;
+  }
+  .progress-icon__pie {
+    position: absolute;
+  }
+  path.color0 {
+    fill: #1f9aff;
+  }
+  
+  path.color1 {
+    fill: #e8f5ff;
+  }
+}

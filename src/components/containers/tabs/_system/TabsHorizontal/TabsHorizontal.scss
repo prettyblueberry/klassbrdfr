@@ -1,0 +1,20 @@
+.tabs-horizontal {
+  width: 100%;
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tabs-horizontal__buttons {
+  margin: 45px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+}
+.tabs-horizontal__body {
+  width: 100%;
+}

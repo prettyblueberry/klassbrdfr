@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-33.3%" y="-26.7%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="CREATE/JOIN-CLASS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create/Join-class-(≥1200px)" transform="translate(-700.000000, -644.000000)">
+            <g id="Content" transform="translate(449.000000, 181.000000)">
+                <g id="Create-class" transform="translate(100.000000, 358.000000)">
+                    <g id="icon" transform="translate(157.000000, 109.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M15.6573606,14.0426394 L19.2923077,14.0426394 C19.7383838,14.0426394 20.1,14.4041071 20.1,14.85 C20.1,15.2958929 19.7383838,15.6573606 19.2923077,15.6573606 L15.6573606,15.6573606 L15.6573606,19.2923077 C15.6573606,19.7383838 15.2958929,20.1 14.85,20.1 C14.4041071,20.1 14.0426394,19.7383838 14.0426394,19.2923077 L14.0426394,15.6573606 L10.4076923,15.6573606 C9.96161616,15.6573606 9.6,15.2958929 9.6,14.85 C9.6,14.4041071 9.96161616,14.0426394 10.4076923,14.0426394 L14.0426394,14.0426394 L14.0426394,10.4076923 C14.0426394,9.96161616 14.4041071,9.6 14.85,9.6 C15.2958929,9.6 15.6573606,9.96161616 15.6573606,10.4076923 L15.6573606,14.0426394 Z" id="Combined-Shape" fill="#8F63DE" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

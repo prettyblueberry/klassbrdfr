@@ -1,0 +1,151 @@
+.sms-statistic {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+  width: 100%;
+  width: calc(100% - 20px);
+}
+.sms-statistic__left {
+  background: #1f9aff;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+}
+.sms-statistic__right {
+  background: #fff;
+  border-radius: 5px;
+}
+.sms-statistic__buy {
+  padding: 10px 15px;
+  background: #fff;
+  color: #1f9aff;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  .icon {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+}
+.sms-statistic__label {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.sms-statistic__credits {
+  color: #fff;
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  text-align: left;
+}
+.sms-statistic__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.sms-statistic__right-1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+  text-align: left;
+}
+.sms-statistic__right-all {
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #2e3b50;
+}
+.sms-statistic__right-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sms-statistic__sent-count {
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  color: #46e297;
+}
+.sms-statistic__opened-count {
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  color: #1f9aff;
+  span {
+    opacity: 0.6;
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+}
+.sms-statistic__sent-label,
+.sms-statistic__opened-label {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.8px;
+  color: #2d3a53;
+}
+.sms-statistic__right-statistic {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.sms-statistic__sent-block {
+  margin-right: 20px;
+  text-align: left;
+}

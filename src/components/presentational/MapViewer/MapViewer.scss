@@ -1,0 +1,50 @@
+.map-viewer {
+  width: 100%;
+  height: 343px;
+  position: relative;
+}
+.map-viewer__map {
+  height: 100%;
+  width: 100%;
+}
+.map-viewer__address {
+  height: 54px;
+  width: calc(100% - 70px);
+  left: 16px;
+  bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: absolute;
+  padding-left: 25px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  .klassicon-location {
+    margin-right: 17px;
+    color: #46e297;
+    font-size: 25px;
+  }
+}
+.map-viewer__address-title {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: -0.3px;
+  color: #2e3b50;
+}
+.map-viewer__address-adr {
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: 0.1px;
+  color: #c0c4ca;
+}

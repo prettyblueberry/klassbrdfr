@@ -1,0 +1,432 @@
+$font-medium: 'GalanoGrotesque';
+
+$color-background: #ffffff;
+$color-text-light: #ffffff;
+$color-dark-grey-blue: #2e3b50;
+$color-clear-blue: #1f9aff;
+$color-butterscotch: #ffb53a;
+$color-coral: #f15b5b;
+$color-purple: #8f63de;
+$color-page: #f9fafc;
+$color-turquoise-blue: #00b7ce;
+
+.add-my-school {
+  width: 490px;
+  height: 204px;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+  background-color: $color-background;
+  box-sizing: border-box;
+  padding: 34px 30px 30px 30px;
+  .book {
+    position: absolute;
+    left: 555.5px;
+    top: 878px;
+  }
+  .illustration {
+    position: absolute;
+    left: 1096px;
+    top: 865px;
+  }
+  .unicorn-1 {
+    position: absolute;
+    left: 1131px;
+    top: 739px;
+  }
+  .unicorn-2 {
+    position: absolute;
+    left: 503px;
+    top: 740px;
+  }
+  .add-button {
+    width: 430px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: $color-clear-blue;
+    margin-top: 30px;
+    color: $color-text-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .make-photo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .fullname {
+    .position {
+      width: 68px;
+      height: 16px;
+      font-family: $font-medium;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: -0.4px;
+      color: rgba(46, 59, 80, 0.6);
+      margin-top: 6px;
+    }
+  }
+}
+
+.Congratulations-Julien-header3 {
+  width: 100%;
+  max-width: 450px;
+  height: 67px;
+  font-family: $font-medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.8px;
+  color: rgba(46, 59, 80, 0.6);
+  margin-top: -20px;
+  margin-bottom: 30px;
+  .selected {
+    color: $color-dark-grey-blue;
+  }
+}
+
+.Congratulations-Julien-Your .text-style-1 {
+  color: var(--dark-grey-blue);
+}
+
+.create-password-header3 {
+  width: 411px;
+  height: 30px;
+  font-family: $font-medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.8px;
+  color: rgba(46, 59, 80, 0.6);
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.the-terms {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background-color: $color-background;
+    margin-right: 5px;
+    .circle {
+      width: 8px;
+      height: 8px;
+      border-radius: 4px;
+      background-color: #1f9aff;
+    }
+  }
+  .text {
+    width: 321px;
+    height: 20px;
+    font-family: $font-medium;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: -0.4px;
+    color: $color-clear-blue;
+    .grey {
+      letter-spacing: -0.4px;
+      color: rgba(46, 59, 80, 0.6);
+    }
+  }
+}
+
+.I-accept-the-terms- .text-style-1 {
+  letter-spacing: -0.4px;
+  color: rgba(46, 59, 80, 0.6);
+}
+
+.I-accept-the-terms- .text-style-2 {
+  color: rgba(46, 59, 80, 0.6);
+}
+
+.password-strength {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  .progress {
+    height: 4px;
+    border-radius: 5px;
+    &.weak {
+      width: 200px;
+      background-color: $color-coral;
+    }
+    &.middle {
+      width: 245px;
+      background-color: $color-butterscotch;
+    }
+    &.strong {
+      width: 300px;
+      background-color: $color-turquoise-blue;
+    }
+  }
+  .text {
+    width: auto;
+    height: 20px;
+    font-family: $font-medium;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: -0.4px;
+    color: $color-butterscotch;
+    &.weak {
+      color: $color-coral;
+    }
+    &.middle {
+      color: $color-butterscotch;
+    }
+    &.strong {
+      color: $color-turquoise-blue;
+    }
+  }
+}
+
+.icon-back {
+  width: 20px;
+  height: 19.2px;
+  position: absolute;
+  left: calc(558px + (100% - 1440px) / 2);
+  top: 197.4px;
+  cursor: pointer;
+}
+
+
+.form-button-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-button-next {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 124px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: $color-clear-blue;
+  cursor: pointer;
+  .text {
+    margin-left: 34px;
+    width: 38px;
+    height: 23px;
+    font-family: $font-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: right;
+    color: $color-text-light;
+  }
+  .image {
+    width: 15px;
+    height: 14px;
+    margin-left: 14px;
+  }
+}
+
+.form-input-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 61px;
+  border-radius: 4px;
+  background-color: $color-page;
+  padding-top: 0px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  &.notify {
+    color: $color-text-light;
+    background-color: $color-coral;
+    padding-top: 0px;
+  }
+  .header {
+    width: auto;
+    height: 16px;
+    opacity: 0.6;
+    font-family: $font-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #2d3954;
+    position: relative;
+    top: -15px;
+  }
+  .input {
+    width: 434px;
+    height: 25px;
+    font-family: $font-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: -0.5px;
+    color: #2d3954;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -4px;
+  }
+  .icon-show {
+    width: 22px;
+    height: 22px;
+    opacity: 0.2;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+}
+
+.header1 {
+  height: 18px;
+  opacity: 0.5;
+  font-family: $font-medium;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: $color-dark-grey-blue;
+}
+
+.header2 {
+  height: 36px;
+  font-family: $font-medium;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.7px;
+  margin-bottom: 30px;
+  &.step-1 {
+    color: $color-butterscotch;
+  }
+  &.step-2 {
+    color: $color-coral;
+  }
+  &.step-3 {
+    color: $color-purple;
+  }
+  &.step-4 {
+    color: $color-clear-blue;
+  }
+  .text {
+    color: $color-dark-grey-blue;
+  }
+}
+
+.create-account-form {
+  width: 490px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+
+
+.arrow-white {
+  margin-left: 14px;
+  width: 15px;
+  height: 14px;
+}
+
+.Button-signin-text {
+  width: 80px;
+  height: 23px;
+  font-family: $font-medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: $color-text-light;
+  margin-left: 30px;
+}
+
+.Button-signin {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 162px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 2px $color-text-light;
+  margin-left: 30px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.logo-image {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 44px;
+}
+
+.signup-page {
+  min-width: 1440px;
+  min-height: 1024px;
+  overflow: visible;
+  background-color: $color-page;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.navbar-bottom {
+  margin-top: -1px;
+  height: 18px;
+  background-image: url(/images/navbar-bottom.png);
+  background-position: bottom center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  height: 74px;
+  background-color: $color-clear-blue;
+  width: 100%;
+}

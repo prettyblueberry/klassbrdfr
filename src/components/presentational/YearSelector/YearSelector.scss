@@ -1,0 +1,54 @@
+.year-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 25px;
+  box-sizing: border-box;
+  background: #fff;
+  height: 90px;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.year-selector__left,
+.year-selector__right {
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.year-selector__arrow {
+  margin: 0 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+.year-selector__year {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+}
+.year-selector__selected-year {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #1f9aff;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>invit-member</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="Timeline-(≥1200px)" transform="translate(-144.000000, -882.000000)" stroke="#2E3B50">
+            <g id="Side-Menu" transform="translate(120.000000, 125.000000)">
+                <g id="Sidemenu" transform="translate(0.000000, 49.000000)">
+                    <g id="3" transform="translate(22.000000, 652.000000)">
+                        <g id="Invit-member" transform="translate(2.000000, 56.000000)">
+                            <g id="invit-member">
+                                <g id="Group-42" transform="translate(0.000000, 3.000000)" stroke-width="2">
+                                    <g id="Group-43">
+                                        <ellipse id="Oval-8" cx="8" cy="3.87878788" rx="4" ry="3.87878788"></ellipse>
+                                        <path d="M1.07620512,14.5151515 L14.9237949,14.5151515 C14.4234686,11.2622151 11.5196133,8.75757576 8,8.75757576 C4.48038667,8.75757576 1.57653137,11.2622151 1.07620512,14.5151515 Z" id="Rectangle-22"></path>
+                                    </g>
+                                </g>
+                                <path d="M19.5,3 L17.5,3 L17.5,1 C17.5,0.723857625 17.2761424,0.5 17,0.5 C16.7238576,0.5 16.5,0.723857625 16.5,1 L16.5,3 L14.5,3 C14.2238576,3 14,3.22385763 14,3.5 C14,3.77614237 14.2238576,4 14.5,4 L16.5,4 L16.5,6 C16.5,6.27614237 16.7238576,6.5 17,6.5 C17.2761424,6.5 17.5,6.27614237 17.5,6 L17.5,4 L19.5,4 C19.7761424,4 20,3.77614237 20,3.5 C20,3.22385763 19.7761424,3 19.5,3 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

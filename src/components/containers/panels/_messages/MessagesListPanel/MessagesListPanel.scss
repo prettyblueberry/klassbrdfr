@@ -1,0 +1,65 @@
+.messages-list-panel__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 24px 0;
+}
+.messages-list-panel__invite {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -1.2px;
+  text-align: right;
+  color: #0092ff;
+  .icon {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+.messages-list-panel__selects {
+  display: inline-block;
+  width: 350px;
+  .select-small {
+    display: inline-flex;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .messages-list-panel__container {
+    flex-direction: column !important;
+    .search-input {
+      max-width: unset !important;
+      margin-right: unset !important;
+      margin-bottom: 30px !important;
+    }
+    .messages-list-panel__selects  {
+      width: 100%;
+    }
+  }
+  .messages-list-panel__selects .select-small {
+    max-width: 50% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .messages-list-panel__container {
+    .search-input {
+      max-width: 217px !important;
+      margin-right: 30px !important;
+    }
+  }
+  .messages-list-panel__selects {
+    width: 380px;
+  }
+}

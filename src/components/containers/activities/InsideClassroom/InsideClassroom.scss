@@ -1,0 +1,171 @@
+.error-container {
+  margin: auto;
+  padding-top: 170px;
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+}
+.not-found-background img {
+  position: absolute;
+}
+.not-found-background img:nth-of-type(1) {
+  top: 300px;
+  right: 0;
+  height: 150px;
+}
+.not-found-background img:nth-of-type(2) {
+  top: 200px;
+  left: 100px;
+  height: 150px;
+}
+.not-found-background img:nth-of-type(3) {
+  top: 100px;
+  left: 300px;
+  height: 10px;
+}
+.not-found-background img:nth-of-type(4) {
+  bottom: 100px;
+  left: 200px;
+  height: 10px;
+}
+
+.not-found-background img:nth-of-type(5) {
+  top: calc(50%);
+  right: 200px;
+  height: 10px;
+}
+.not-found-background img:nth-of-type(6) {
+  bottom: 100px;
+  right: 100px;
+  height: 10px;
+}
+#not-found-activity {
+  display: flex;
+  width: 100%;
+}
+.not-found-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.not-found-page {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 50px;
+  background: white;
+}
+.not-found-page h1 {
+  color: #1f9aff;
+  font-family: GalanoGrotesque;
+  font-size: 75px;
+  margin: 5px;
+}
+.not-found-page h2 {
+  color: #00b7ce;
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  margin: 5px;
+}
+.not-found-page p {
+  color: #2e3b50;
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  margin: 5px;
+}
+.not-found-page strong {
+  color: #1f9aff;
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  margin: 5px;
+  font-weight: normal;
+}
+.not-found-page .btn-important {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: GalanoGrotesque;
+  margin-top: 20px;
+  display: inline-block;
+}
+.btn-important {
+  border: 0;
+  border-radius: 50px;
+  background: #1f9aff;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); */
+  font-family: Norms Bold, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+}
+.btn-important img {
+  margin-left: 5px;
+}
+
+.floating {
+  position: absolute;
+}
+.floating.f-bottom-right {
+  height: 300px;
+  bottom: -230px;
+  right: -90px;
+}
+.floating.f-bottom-left {
+  height: 200px;
+  bottom: -80px;
+  left: -140px;
+}
+.floating.f-top-right {
+  height: 100px;
+  top: -50px;
+  right: -50px;
+}
+.floating.f-top-middle {
+  height: 100px;
+  top: -83px;
+  left: calc(50% - 50px);
+}
+.floating.f-left {
+  height: 20px;
+  bottom: 100px;
+  left: -10px;
+}
+.floating.f-bottom {
+  height: 20px;
+  bottom: -10px;
+  right: 100px;
+}
+.floating.f-right {
+  height: 20px;
+  bottom: 150px;
+  right: -10px;
+}
+.floating.f-middle {
+  height: 10px;
+  top: 100px;
+  left: 50px;
+}
+.inside-classroom__layout {
+  .three-grid-layout__center {
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: none
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      outline: none;
+    }
+  }
+}

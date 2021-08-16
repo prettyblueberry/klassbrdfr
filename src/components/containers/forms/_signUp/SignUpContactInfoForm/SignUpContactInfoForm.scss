@@ -1,0 +1,32 @@
+.signup-contact-info-form {
+  .alert {
+    max-width: 500px;
+  }
+  .country-phone-input {
+    width: 100%;
+    .form-group label {
+      position: relative;
+      top: 10px;
+      color: #2d3954;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+  }
+  .country-phone-input .intl-tel-input {
+    border: none !important;
+    border-radius: none !important;
+    background: transparent !important;
+  }
+  .country-phone-input__gray {
+    border-radius: 4px;
+    background-color: #f9fafc;
+    padding-top: 0px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 61px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

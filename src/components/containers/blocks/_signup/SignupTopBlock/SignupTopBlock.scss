@@ -1,0 +1,78 @@
+$font-medium: 'GalanoGrotesque';
+
+$color-background: #ffffff;
+$color-text-light: #ffffff;
+$color-dark-grey-blue: #2e3b50;
+$color-clear-blue: #1f9aff;
+$color-butterscotch: #ffb53a;
+$color-coral: #f15b5b;
+$color-purple: #8f63de;
+$color-page: #f9fafc;
+$color-turquoise-blue: #00b7ce;
+
+.top-right-actions {
+  height: 100%;
+  width: calc(269px + 222px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  .top-right-button {
+    margin-left: 30px;
+    margin-top: 16px;
+  }
+}
+
+
+.right-title {
+  width: 269px;
+  height: 22px;
+  opacity: 0.6;
+  font-family: $font-medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: right;
+  color: $color-text-light;
+  margin-right: 30px;
+}
+
+.logo-image {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 44px;
+}
+
+.signup-page {
+  min-width: 1440px;
+  min-height: 1024px;
+  overflow: visible;
+  background-color: $color-page;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.navbar-bottom {
+  margin-top: -1px;
+  height: 18px;
+  background-image: url(/images/navbar-bottom.png);
+  background-position: bottom center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  height: 74px;
+  background-color: $color-clear-blue;
+  width: 100%;
+}

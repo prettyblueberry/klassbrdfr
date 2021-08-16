@@ -1,0 +1,33 @@
+.choose-import-method-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.choose-import-method-form__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #2d3a52;
+}
+.choose-import-method-form__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+}
+.choose-import-method-form__close {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  color: #c0c4ca;
+  font-size: 20px;
+}

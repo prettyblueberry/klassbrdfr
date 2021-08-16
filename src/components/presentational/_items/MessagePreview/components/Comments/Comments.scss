@@ -1,0 +1,120 @@
+.message-preview__comments {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.message-preview__comments-in-modal {
+  margin-top: 26px;
+  position: absolute;
+}
+
+.message-preview__comment {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 55px auto 50px;
+  grid-template-rows: 1fr;
+  margin-bottom: 10px;
+}
+.message-preview__comment-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 8px;
+  .icon {
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .klassicon-add-note {
+    font-size: 24px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+.message-preview__comments-input-user,
+.message-preview__comment-img {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+}
+.message-preview__comment-author {
+  color: #1f91ff;
+}
+.message-preview__comment-message {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  display: inline-block;
+  font-weight: bold;
+  color: #393939;
+  background: #f0f0f0;
+  max-width: calc(100% - 55px);
+  min-width: 100px;
+}
+.message-preview__comment-date {
+  color: #bdc1c9;
+}
+.message-preview__comments-show-more {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.message-preview__comments-show-more-btn {
+  background: transparent;
+  border: none;
+  text-align: center;
+  color: #1f91ff;
+}
+.message-preview__comments-input-container {
+  width: 100%;
+}
+
+.message-preview__comments-input-user-container {
+  width: 36px;
+  height: 100%;
+}
+.message-preview__comments-input-user {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+
+  position: relative;
+  top: -15px;
+}
+.message-preview__comments-input-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.message-preview__loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(#fff, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.message-preview__comments-list {
+ // max-height: 300px;
+  //overflow-y: auto;
+}
+.message-preview__comment__edited {
+  background: rgba(#1f9aff, 0.2);
+}

@@ -1,0 +1,53 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../../themes/light/colors';
+
+.link-class-request-form {
+  
+}
+.link-class-request-form__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.link-class-request-form__cancel {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+
+.link-class-request-form {
+
+.country-phone-input {
+  width: 100%;
+  .form-group label {
+    position: relative;
+    top: 10px;
+    color: #2d3954;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+}
+.country-phone-input .intl-tel-input {
+  border: none !important;
+  border-radius: none !important;
+  background: transparent !important;
+}
+.country-phone-input__gray {
+  border-radius: 4px;
+  background-color: #f9fafc;
+  padding-top: 0px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  height: 61px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+}

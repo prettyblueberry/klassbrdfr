@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.175,10.2666667 L10.175,3.84723455 C10.175,3.39227983 10.5443651,3.025 11,3.025 C11.4588115,3.025 11.825,3.39312695 11.825,3.84723455 L11.825,10.2666667 L18.2444321,10.2666667 C18.6993868,10.2666667 19.0666667,10.6360317 19.0666667,11.0916667 C19.0666667,11.5504782 18.6985397,11.9166667 18.2444321,11.9166667 L11.825,11.9166667 L11.825,18.3360988 C11.825,18.7910535 11.4556349,19.1583333 11,19.1583333 C10.5411885,19.1583333 10.175,18.7902064 10.175,18.3360988 L10.175,11.9166667 L3.75556788,11.9166667 C3.30061316,11.9166667 2.93333333,11.5473016 2.93333333,11.0916667 C2.93333333,10.6328551 3.30146028,10.2666667 3.75556788,10.2666667 L10.175,10.2666667 Z" id="path-1"></path>
+    </defs>
+    <g id="DASHBOARD-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD---EMPTY" transform="translate(-626.000000, -793.000000)">
+            <g id="Center-Panel" transform="translate(325.000000, 142.000000)">
+                <g id="Empty-Placeholder" transform="translate(165.000000, 257.000000)">
+                    <g id="Start-School-Year" transform="translate(104.000000, 377.000000)">
+                        <g id="Content" transform="translate(30.000000, 14.000000)">
+                            <g id="Icons-/-Add">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Icons" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <g id="Colors-/-Text-/-#FFFFFF" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <rect id="Color" x="0" y="0" width="21.8018018" height="21.8018018"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

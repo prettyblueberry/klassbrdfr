@@ -1,0 +1,113 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.create-your-classes {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.create-your-classes__photo-unicorn-left,
+.create-your-classes__photo-unicorn-left-top,
+.create-your-classes__photo-unicorn-right-top,
+.create-your-classes__photo-unicorn-right {
+  position: absolute;
+
+}
+.create-your-classes__photo-unicorn-left {
+  top: 370px;
+  left: 0;
+}
+.create-your-classes__photo-unicorn-left-top {
+  top: 66px;
+  left: 160px;
+}
+.create-your-classes__photo-unicorn-right-top {
+  top: 66px;
+  right: 160px;
+}
+.create-your-classes__photo-unicorn-right {
+  top: 370px;
+  right: 0;
+}
+.create-your-classes__h1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+  margin-top: 42px;
+}
+.create-your-classes__year {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #1f9aff;
+  margin-bottom: 125px;
+}
+.create-your-classes__icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.create-your-classes__h2 {
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #2d3955;
+}
+.create-your-classes__h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #2d3a53;
+  b {
+    color: #9059e5;
+  }
+}
+.create-your-classes__h4 {
+  display: inline-block;
+  width: 450px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: rgba(45, 58, 83, 0.6);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  b {
+    font-weight: 600;
+    color: #2d3a53;
+  }
+}
+.create-your-classes__buttons .btn {
+  width: 307px;
+}
+.create-your-classes__unicorn-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.create-your-classes__unicorn-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons / Logout</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.3821402,6.03968353 C24.1774611,8.0342744 26,11.3042988 26,15 C26,21.0751322 21.0751322,26 15,26 C8.92486775,26 4,21.0751322 4,15 C4,11.277561 5.84900578,7.98698053 8.67868325,5.99659255 L9.829335,7.63244112 C7.44536271,9.3093212 6,12.0314594 6,15 C6,19.9705627 10.0294373,24 15,24 C19.9705627,24 24,19.9705627 24,15 C24,12.0529957 22.5757396,9.34831986 20.2204611,7.66771965 L21.3821402,6.03968353 Z M26,15 C26,21.0751322 21.0751322,26 15,26 C8.92486775,26 4,21.0751322 4,15 C4,11.277561 5.84900578,7.98698053 8.67868325,5.99659255 L9.829335,7.63244112 C7.44536271,9.3093212 6,12.0314594 6,15 C6,19.9705627 10.0294373,24 15,24 C19.9705627,24 24,19.9705627 24,15 C24,12.0529957 22.5757396,9.34831986 20.2204611,7.66771965 L21.3821402,6.03968353 C24.1774611,8.0342744 26,11.3042988 26,15 Z M14,4 L16,4 L16,16 L14,16 L14,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Logout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icons" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Colors-/-Primary-/-#1F9AFF" mask="url(#mask-2)" fill="#1F9AFF" fill-rule="nonzero">
+            <rect id="Color" x="0" y="0" width="30" height="30"></rect>
+        </g>
+    </g>
+</svg>

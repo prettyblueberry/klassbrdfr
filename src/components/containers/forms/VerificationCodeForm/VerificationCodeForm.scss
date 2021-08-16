@@ -1,0 +1,97 @@
+
+.verification-code-form {
+  img {
+    vertical-align: middle;
+  }
+  form {
+    line-height: 20px;
+  }
+  fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  form fieldset .form-group p {
+    margin-bottom: 0;
+    padding-left: 5px;
+    font-family: GalanoGrotesque;
+  }
+  .close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+  }
+  button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+  }
+  .alert .close {
+    font-size: 16px;
+  }
+  .alert>p, .alert>ul {
+    margin-bottom: 0;
+  }
+  .krBlue {
+    color: #1f9aff !important;
+  }
+  .repeat-phone-btn {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: GalanoGrotesque;
+    padding: 5px 15px;
+    border-radius: 100px;
+    background-color: #1f9aff;
+    border-color: #1f9aff;
+    transition: 0.3s ease all !important;
+    color: #fff !important;
+  }
+  .btn-transparent {
+    border: 0;
+    background: none;
+    display: inline-block;
+    font-family: GalanoGrotesque;
+    color: black;
+    text-decoration: none;
+  }
+  .btn-back {
+    color: #1f9aff;
+  }
+}
+@media screen and (min-width: 769px){
+  .btn-back .btn-back-white-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .verification-code-form  .btn-back {
+      position: fixed;
+      top: 23px;
+      left: 5px;
+      z-index: 4;
+      color: white;
+      height: 20px;
+      z-index: 1000;
+  }
+  .verification-code-form  .btn-back .btn-back-black-icon {
+    display: none;
+  }
+}
+.mobile-message {
+  text-align: center;
+  margin-top: 20px;
+  p {
+    margin: 0 0 10px;
+  }
+}

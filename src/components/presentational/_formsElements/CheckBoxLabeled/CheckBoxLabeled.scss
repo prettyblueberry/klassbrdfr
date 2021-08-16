@@ -1,0 +1,46 @@
+.check-box-labeled {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  position: relative;
+}
+
+.check-box-labeled__label {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.9px;
+  color: #2e3b50;
+}
+.check-box-labeled__reverse {
+  flex-direction: row-reverse;
+  .check-box-labeled__label {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+.check-box-labeled__description {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  bottom: -15px;
+  left: 26px;
+  right: unset;
+  overflow: visible;
+  white-space: nowrap;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.6px;
+  color: rgba(#2e3b50, 0.6);
+}

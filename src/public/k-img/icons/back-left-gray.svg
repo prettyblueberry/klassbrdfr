@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Previous</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.7175,24.3035 C16.1137643,23.9188337 16.1178215,23.2898215 15.7329868,22.9049868 L8.828,16 L24.0005733,16 C24.5525414,16 25,15.5561352 25,15 L25,15 C25,14.4477153 24.5505894,14 24.0005733,14 L8.828,14 L15.7139248,7.1140752 C16.1005657,6.72743434 16.1001876,6.10018757 15.707,5.707 L15.707,5.707 C15.3165347,5.31653468 14.6897542,5.31024575 14.2968194,5.70318058 L5.70318058,14.2968194 C5.31482467,14.6851753 5.31024575,15.3102458 5.70318058,15.7031806 L14.2968194,24.2968194 C14.6851753,24.6851753 15.318473,24.6908482 15.7175,24.3035 L15.7175,24.3035 Z" id="path-1"></path>
+    </defs>
+    <g id="DASHBOARD-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD---INCOMPLETE" transform="translate(-350.000000, -244.000000)">
+            <g id="Center-Panel" transform="translate(325.000000, 142.000000)">
+                <g id="Years" transform="translate(0.000000, 67.000000)">
+                    <g id="Previous-year" transform="translate(20.000000, 30.000000)">
+                        <g id="Icons-/-Back">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Icons" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Colors-/-Text-/-#C0C4CA" mask="url(#mask-2)" fill="#C0C4CA" fill-rule="nonzero">
+                                <rect id="Color" x="0" y="0" width="30" height="30"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

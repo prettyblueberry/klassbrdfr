@@ -1,0 +1,35 @@
+.alert-unicorn {
+    background: white;
+    width: calc(100% - 40px);
+    max-width: 400px;
+    margin: 110px auto 50px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 15px 0 rgba(46, 59, 80, 0.1);
+    text-align: center;
+    min-height: 120px;
+
+    img {
+        height: 125px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-100%);
+    }
+
+    &__title {
+        font-size: 25px;
+        font-family: Galano Medium;
+        position: relative;
+        top: 10px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-family: Galano Medium;
+        color: #828996 !important;
+        position: relative;
+        opacity: 0.5;
+        top: 15px;
+    }
+    
+}

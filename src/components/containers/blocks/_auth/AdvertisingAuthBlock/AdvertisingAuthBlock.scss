@@ -1,0 +1,95 @@
+.k-activity-advertising {
+  position: relative;
+  width: 370px;
+  height: 100vh;
+  background-image: url(/public/k-img/bg-left.png);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.k-activity-advertising img.floating-unicorn {
+  position: absolute;
+  width: 25%;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(1) {
+  top: calc(50% - 200px);
+  left: -20px;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(2) {
+  top: calc(50% - 248px);
+  right: -59px;
+  width: 38%;
+  z-index: 1;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(3) {
+  top: calc(50% + 84px);
+  left: -50px;
+  width: 35%;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(4) {
+  top: calc(50% + 60px);
+  right: -20px;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(5) {
+  top: calc(50% - 250px);
+  right: 45%;
+  width: 15%;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(6) {
+  top: -5%;
+  right: 37.5%;
+}
+.k-activity-advertising img.floating-unicorn:nth-of-type(7) {
+  top: -3.4%;
+  right: 7%;
+  width: 15%;
+}
+.k-activity-advertising .ad-text {
+  margin: auto;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 20px;
+}
+.k-activity-advertising .ad-text h1 {
+  font-family: GalanoGrotesque;
+  font-size: 24px;
+  line-height: 30px;
+}
+.k-activity-advertising .ad-buttons {
+  bottom: 125px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  display: none;
+}
+
+/* Mobile Adaptive */
+@media screen and (max-width: 768px) {
+  .k-activity-advertising {
+    left: 0;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+    background-image: url("/public/k-img/bg-top.png");
+    background-position: center bottom;
+  }
+  .k-activity-advertising img.floating-unicorn:not(:nth-child(2)) {
+    display: none;
+  }
+  .k-activity-advertising img.floating-unicorn:nth-child(2) {
+    top: 0 !important;
+    right: 0 !important;
+    width: 25%;
+  }
+  .k-activity-advertising {
+    .ad-text h1,
+    .btn-outline-white,
+    .ad-buttons {
+      display: none;
+    }
+  }
+}

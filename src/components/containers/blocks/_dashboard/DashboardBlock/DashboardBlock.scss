@@ -1,0 +1,112 @@
+.dashboard-block {
+  box-sizing: border-box;
+  margin-bottom: 200px;
+  text-align: center;
+  padding: 50px 100px;
+  width: 100%;
+}
+.dashboard-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.dashboard-block__header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashboard-block__header-img {
+  width: 26px;
+  height: auto;
+}
+.dashboard-block__header-title {
+  color: #2e3b50;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  margin-left: 12px;
+}
+
+
+.dashboard-block__epmty {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.dashboard-block__epmty-img {
+  margin-bottom: 30px;
+}
+.dashboard-block__epmty-title {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  margin-bottom: 5px;
+  b {
+    color: #1f9aff;
+  }
+}
+.dashboard-block__epmty-desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.dashboard-block__page {
+
+}
+.dashboard-block__page-statistic {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+  margin: 30px 0;
+  width: calc(100% - 30px);
+}
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+  .dashboard-block {
+    padding: 50px 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-activity__layout {
+    .three-grid-layout__center {
+      overflow: auto;
+      width: 100%;
+    }
+    .three-grid-layout__center {
+      overflow: auto;
+      width: 100%;
+    }
+  }
+  .dashboard-block {
+    display: table !important;
+    width: 1224px !important;
+    min-width: 1224px !important;
+    padding-left: 510px !important;
+    padding-right: 30px !important;
+    margin-bottom: 0;
+    height: auto !important;
+    margin-bottom: 0 !important;
+  }
+  .publications-shared__markers {
+    flex-direction: column !important;
+  }
+}

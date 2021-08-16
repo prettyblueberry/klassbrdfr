@@ -1,0 +1,31 @@
+.audio-component {
+  width: 100%;
+  margin-bottom: 20px;
+  .audio-component__title {
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: -0.7px;
+    color: #2e3b50;
+    text-align: center;
+  }
+  .audio-component__player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    .klassicon-audio {
+      display: inline-block;
+      width: 30px;
+      height: 100%;
+      font-size: 26px;
+      color: #1f9aff;
+    }
+    audio {
+      width: calc(100% - 30px);
+    }
+  }
+}

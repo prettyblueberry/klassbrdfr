@@ -1,0 +1,78 @@
+.level-reading-messages-sms {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.level-reading-messages-sms__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: rgba(44, 56, 86, 0.6);
+  margin-bottom: 30px;
+}
+.level-reading-messages-sms__statistic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.level-reading-messages-sms__level {
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #2d3a53;
+}
+.level-reading-messages-sms__h2 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #2c3856;
+  margin-top: 10px;
+}
+.level-reading-messages-sms__button {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #1697ff;
+  background: transparent;
+  border: none;
+  margin-top: 20px;
+}
+.level-reading-messages-sms__u1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.level-reading-messages-sms__u2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

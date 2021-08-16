@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="270px" viewBox="0 0 135 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>planete bleue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="404-PAGE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="404-(≥1200px)" transform="translate(-1305.000000, -453.000000)">
+            <g id="planets" transform="translate(25.000000, 158.000000)">
+                <g id="planete-bleue" transform="translate(1280.000000, 295.000000)">
+                    <circle id="Oval-5" fill="#1F9AFF" opacity="0.150000006" cx="135" cy="135" r="100"></circle>
+                    <circle id="Oval-5" fill="#1F9AFF" opacity="0.100000001" cx="135" cy="135" r="135"></circle>
+                    <circle id="Oval-5" fill="#1F9AFF" cx="134" cy="134" r="71"></circle>
+                    <circle id="Oval-3" fill="#1988E4" cx="129.5" cy="95.5" r="15.5"></circle>
+                    <path d="M92.6578217,191.728618 C84.6572164,185.988829 77.8989328,178.627073 72.8639544,170.124333 C75.4866588,165.285723 80.6096186,162 86.5,162 C95.0604136,162 102,168.939586 102,177.5 C102,183.8723 98.154644,189.34647 92.6578217,191.728618 Z" id="Combined-Shape" fill="#1988E4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

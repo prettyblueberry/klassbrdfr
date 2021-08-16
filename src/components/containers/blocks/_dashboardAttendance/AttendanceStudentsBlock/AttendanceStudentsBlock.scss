@@ -1,0 +1,295 @@
+.dashboard-attendance-students-block {
+  box-sizing: border-box;
+  margin-bottom: 200px;
+  text-align: center;
+  padding: 50px 100px;
+  width: 100%;
+}
+.dashboard-attendance-students-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.dashboard-attendance-students-block__header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .icon {
+    color: #1f9aff;
+    font-size: 35px;
+  }
+}
+.dashboard-attendance-students-block__header-img {
+  width: 26px;
+  height: auto;
+}
+.dashboard-attendance-students-block__header-title {
+  color: #2e3b50;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  margin-left: 12px;
+}
+
+
+.dashboard-attendance-students-block__epmty {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+.dashboard-attendance-students-block__epmty-img {
+  margin-bottom: 30px;
+}
+.dashboard-attendance-students-block__epmty-title {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  margin-bottom: 5px;
+  b {
+    color: #1f9aff;
+  }
+}
+.dashboard-attendance-students-block__epmty-desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.dashboard-attendance-students-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -1px;
+  color: #2b345c;
+}
+.dashboard-attendance-students-block__header-count {
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.11px;
+  text-align: center;
+  color: #1f9aff;
+  background: rgba( #1f9aff, 0.2);
+  border-radius: 16px;
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+.dashboard-attendance-students-block__header {
+  margin: 30px 0;
+}
+.dashboard-attendance-students-block__list {
+  margin-top: 30px;
+}
+.attendance-students__list-item {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.attendance-students__list-item-left {
+  display: flex;
+  flex-direction: row;
+  .user-icon {
+    width: 52px !important;
+    height: 52px !important;
+    margin-right: 20px;
+  }
+}
+.attendance-students__list-item-left-h1 {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.51px;
+  color: #2d3a53;
+}
+.attendance-students__list-item-left-h2 {
+  display: inline-block;
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: -0.42px;
+  color: #2d3a52;
+}
+.attendance-students__list-item-left-h3 {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: -0.42px;
+  color: #1f9aff;
+}
+.attendance-students__list-item-left__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.attendance-students__list-item-left__bottom {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 0 6px;
+}
+.attendance-students__list-item-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 255px;
+  justify-content: flex-start;
+}
+.attendance-students__list-item-center_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.attendance-students__list-item-center__center {
+  margin-right: 30px;
+}
+
+.attendance-students__list-item-center__center-h1 {
+  font-family: GalanoGrotesque;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -1.19px;
+  text-align: center;
+  color: #ff4d00;
+}
+.attendance-students__list-item-center__center-h2 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: -0.33px;
+  text-align: center;
+  color: #2e3b50;
+}
+.attendance-students__list-item-center__botom-h1 {
+  font-family: GalanoGrotesque;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -1.19px;
+  text-align: center;
+  color: #ffb53a;
+}
+.attendance-students__list-item-center__botom-h2 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: -0.33px;
+  text-align: center;
+  color: #2e3b50;
+}
+.attendance-students__list-item--separator {
+  width: 1px;
+  height: 52px;
+  opacity: 0.1;
+  border-radius: 0.5px;
+  background-color: #2e3b50;
+  margin: 0 30px;
+}
+.attendance-students__list-item--statistic {
+
+}
+.attendance-students__list-item--statistic__h1 {
+  border-radius: 7px;
+  background-color: rgba(#46e297, 0.2);
+  color: #46e297;
+  padding: 4px 9px;
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+}
+.attendance-students__list-item--statistic__h2 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: -0.33px;
+  text-align: center;
+  color: #2d3a53;
+}
+
+.attendance-students__list-item-right {
+  color: #c0c4ca;
+  font-size: 20px;
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .dashboard-attendance-students-block {
+    padding: 50px 20px;
+  }
+}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .dashboard-attendance-students-block
+  {
+    display: table !important;
+    width: 1224px !important;
+    min-width: 1224px !important;
+    padding-left: 510px !important;
+    padding-right: 30px !important;
+    margin-bottom: 0;
+    height: auto !important;
+    margin-bottom: 0 !important;
+  }  
+}

@@ -1,0 +1,31 @@
+
+.count-with-label {
+  display: inline-block;
+}
+.count-with-label-text {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.9px;
+  color: #2a2d63;
+}
+.count-with-label-count {
+  display: inline-block;
+  border-radius: 16px;
+  background-color: rgba(#008fff, 0.2);
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #008fff;
+  margin-left: 10px;
+  padding: 4px 10px;
+}

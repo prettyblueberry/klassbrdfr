@@ -1,0 +1,248 @@
+.date-time-picker {
+  margin-bottom: 20px;
+  position: relative;
+  .rdt {
+    position: relative;
+  }
+  .rdtOpen .rdtPicker {
+    display: block;
+  }
+  .rdtPicker {
+    display: none;
+    position: absolute;
+    width: 250px;
+    padding: 4px;
+    margin-top: 1px;
+    z-index: 99999 !important;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #f9f9f9;
+    box-sizing: border-box;
+  }
+  .rdtPicker table {
+    width: 100%;
+    margin: 0;
+  }
+  .rdtPicker th {
+    border-bottom: 1px solid #f9f9f9;
+  }
+  .rdtPicker th.rdtSwitch {
+    width: 100px;
+    font-family: GalanoGrotesque;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #2d3a52;
+    cursor: pointer;
+  }
+  .rdtPicker td, .rdtPicker th {
+    text-align: center;
+    height: 28px;
+  }
+  .rdtNext,
+  .rdtPrev {
+    cursor: pointer;
+    font-size: 24px !important;
+    color: #2d3a52;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    &:hover {
+      opacity: 0.8;
+      background: #008fff;
+      border-radius: 100%;
+      color: #fff;
+    }
+  }
+  .rdtDay,
+  .rdtMonth {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .rdtPicker th {
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #008fff;
+  }
+  .rdtTimeToggle {
+    border-top: 1px solid rgba(#008fff, 0.4);
+    padding-top: 5px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .rdtPicker th.rdtSwitch {
+    width: 100px;
+  }
+  .rdtPicker th {
+    border-bottom: 1px solid #f9f9f9;
+  }
+  .rdtCounters {
+    display: inline-block;
+  }
+  .rdtCounter {
+    width: 40px;
+  }
+  .rdtCounters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rdtOpen .rdtPicker {
+    display: block;
+  }
+  .rdtPicker {
+    display: none;
+    position: absolute;
+    width: 250px;
+    padding: 4px;
+    margin-top: 1px;
+    z-index: 99999 !important;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #f9f9f9;
+  }
+  .rdtPicker table {
+    width: 100%;
+    margin: 0;
+  }
+  .rdtPicker th {
+    border-bottom: 1px solid #f9f9f9;
+  }
+  .rdtPicker th.rdtSwitch {
+    width: 100px;
+    font-family: GalanoGrotesque;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #2d3a52;
+  }
+  .rdtPicker td, .rdtPicker th {
+    text-align: center;
+    height: 28px;
+  }
+  .rdtNext,
+  .rdtPrev {
+    cursor: pointer;
+    font-size: 24px !important;
+    color: #2d3a52;
+    &:hover {
+      opacity: 0.8;
+      background: #008fff;
+      border-radius: 100%;
+      color: #fff;
+    }
+  }
+  .rdtPicker th {
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #008fff;
+  }
+  .rdtTimeToggle {
+    border-top: 1px solid rgba(#008fff, 0.4);
+    padding-top: 5px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .rdtPicker th.rdtSwitch {
+    width: 100px;
+  }
+  .rdtPicker th {
+    border-bottom: 1px solid #f9f9f9;
+  }
+  .rdtCounters {
+    display: inline-block;
+  }
+  .rdtCounter {
+    width: 40px;
+  }
+  .rdtCounters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rdtActive {
+    background: rgba(#008fff, 0.8);
+    color: #fff;
+  }
+  .form-control {
+    height: 60px;
+    background-color: #f9fafc;
+    border: none;
+    cursor: pointer;
+    font-family: GalanoGrotesque;
+    color: #2d3954;
+    outline: none;
+    padding-left: 16px;
+  }
+  .rdtBtn {
+    cursor: pointer;
+  }
+  .date-time-picker__wrang-format {
+    color: #f25a57;
+  }
+  .date-time-picker__label {
+    position: absolute;
+    font-family: GalanoGrotesque;
+    color: rgba(45, 57, 84, 0.6);
+    font-size: 14px;
+    bottom: 36px;
+    left: 16px;
+    z-index: 100;
+  }
+  .rdtToday {
+    color: #f15b5b;
+  }
+  .klassicon-close {
+    position: absolute;
+    right: 7px;
+    top: 24px;
+    cursor: pointer;
+    color: #1f9aff;
+  }
+}
+.date-time-picker.date-time-picker--small-size {
+  .date-time-picker__label {
+    left: 0;
+    bottom: 40px;
+  }
+  .form-control {
+    height: 40px;
+  }
+  .klassicon-close {
+    top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .date-time-picker .rdtPicker {
+    width: 100%;
+  }
+}

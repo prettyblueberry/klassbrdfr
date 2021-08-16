@@ -1,0 +1,1 @@
+export {AttachmentComponent} from "./AttachmentComponent/AttachmentComponent";

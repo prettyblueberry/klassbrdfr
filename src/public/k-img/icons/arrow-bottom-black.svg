@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Select</title>
+    <desc>Created with Sketch.</desc>
+    <g id="SIGNUP-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8.ADD-MY-SCHOOL---MANUAL---STEP-3" transform="translate(-1115.000000, -647.000000)" fill="#2E3B50" fill-rule="nonzero">
+            <g id="Right-Panel" transform="translate(503.000000, 142.000000)">
+                <g id="Content" transform="translate(150.000000, 214.000000)">
+                    <g id="Month" transform="translate(0.000000, 263.000000)">
+                        <path d="M465.999918,27.9999683 C467.236702,27.9999683 468.473486,29.4340004 469.71027,32.3020647 L469.710191,32.3020984 C469.819519,32.5556257 469.702622,32.8497777 469.449095,32.9591053 C469.38658,32.9860631 469.319219,32.9999683 469.251139,32.9999683 L462.748768,33 C462.472608,33 462.248736,32.7761282 462.248736,32.4999683 C462.248736,32.4318726 462.262645,32.3644944 462.289609,32.301965 C463.526379,29.4339672 464.763148,27.9999683 465.999918,27.9999683 Z" id="Select" transform="translate(465.999959, 30.499984) rotate(-180.000000) translate(-465.999959, -30.499984) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

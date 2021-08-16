@@ -1,0 +1,63 @@
+.user-icon {
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 40px;
+  box-sizing: border-box;
+  height: 40px;
+  overflow: hidden;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.user-icon__leter {
+  display: inline-flex;
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #fff;
+}
+.user-icon__leter-coral {
+  .user-icon__leter {
+    background: #f15b5b22;
+    color: #f15b5b;
+  }
+}
+.user-icon__leter-blue {
+  .user-icon__leter {
+    background: #1f9aff22;
+    color: #1f9aff;
+  }
+}
+.user-icon__leter-green {
+  .user-icon__leter {
+    background: #46e29722;
+    color: #46e297;
+  }
+}
+.user-icon__leter-purple {
+  .user-icon__leter {
+    background: #8f63de22;
+    color: #8f63de;
+  }
+}
+.user-icon__leter-butterscotch {
+  .user-icon__leter {
+    background: #ffb53a22;
+    color: #ffb53a;
+  }
+}
+.user-icon__leter-turquoiseblue {
+  .user-icon__leter {
+    background: #00b7ce22;
+    color: #00b7ce;
+  }
+}

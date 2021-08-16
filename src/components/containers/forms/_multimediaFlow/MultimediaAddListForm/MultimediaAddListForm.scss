@@ -1,0 +1,23 @@
+.multimedia-add-list-form {
+  .check-box-labeled {
+    margin-bottom: 30px;
+  }
+  .check-box-labeled__description {
+    font-size: 12px;
+  }
+  .check-box-labeled {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.multimedia-add-list-form__add-option {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #1f9aff;
+}

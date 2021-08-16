@@ -1,0 +1,113 @@
+.poll-viewer {
+  margin-top: 20px;
+}
+
+.poll-viewer__question {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: -0.4px;
+  color: #666666;
+}
+
+.poll-viewer__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.poll-viewer__header-h1 {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: -0.3px;
+  color: #8b572a;
+  text-align: left;
+}
+.poll-viewer__header-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #c0c4ca;
+}
+.poll-viewer__header-right {
+  font-size: 23px;
+  color: #8b572a;
+}
+.poll-viewer__desc {
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: -0.9px;
+  color: #2e3b50;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.poll-viewer__anonymous {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: center;
+
+  button {
+    color: #1f9aff !important;
+  }
+
+  p {
+    color: #f15b5b;
+    font-family: GalanoGrotesque;
+  }
+
+  .icon {
+    color: #f15b5b;
+    font-size: 25px;
+    margin-right: 9px;
+  }
+}
+.poll-viewer__anonymous-t1 {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: -0.3px;
+  color: #f15b5b;
+  text-align: left;
+}
+.poll-viewer__anonymous-t2 {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #c0c4ca;
+  text-align: left;
+}
+
+// .poll-viewer__result-button {
+//   width: 100%;
+//   text-align: center;
+
+//   button {
+//     color: #1f9aff !important;
+//   }
+// }

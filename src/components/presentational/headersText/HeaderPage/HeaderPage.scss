@@ -1,0 +1,23 @@
+.header-page__header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .icon {
+    color: #1f9aff;
+    font-size: 30px;
+  }
+}
+.header-page__header-img {
+  width: 26px;
+  height: auto;
+}
+.header-page__header-title {
+  color: #2e3b50;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  margin-left: 12px;
+}

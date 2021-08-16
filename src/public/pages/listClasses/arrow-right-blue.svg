@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.5261667,17.8225667 C11.8167605,17.540478 11.8267417,17.0862083 11.5375237,16.7969903 L6.47386667,11.7333333 L17.5914706,11.7333333 C18.0011901,11.7333333 18.3333333,11.4078325 18.3333333,11 L18.3333333,11 C18.3333333,10.5949912 18.0037655,10.2666667 17.5914706,10.2666667 L6.47386667,10.2666667 L11.5235449,5.21698848 C11.8070815,4.93345185 11.8068042,4.47347089 11.5184667,4.18513333 L11.5184667,4.18513333 C11.2321254,3.8987921 10.7724864,3.89418022 10.4843342,4.18233243 L4.18233243,10.4843342 C3.89753809,10.7691286 3.89418022,11.2275136 4.18233243,11.5156658 L10.4843342,17.8176676 C10.7691286,18.1024619 11.2335469,18.106622 11.5261667,17.8225667 L11.5261667,17.8225667 Z" id="path-1"></path>
+    </defs>
+    <g id="MY-CLASSES-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MY-CLASSES---LINK-CLASSES" transform="translate(-980.000000, -885.000000)">
+            <g id="Center-Panel" transform="translate(325.000000, 142.000000)">
+                <g id="Content" transform="translate(0.000000, 377.000000)">
+                    <g id="1" transform="translate(0.000000, 104.000000)">
+                        <g id="Klassroom-Class" transform="translate(410.000000, 0.000000)">
+                            <g id="Go-to-Class" transform="translate(116.000000, 258.000000)">
+                                <g id="Icons-/-Back" transform="translate(137.000000, 11.000000) rotate(-180.000000) translate(-137.000000, -11.000000) translate(126.000000, 0.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Icons" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <g id="Colors-/-Primary-/-#1F9AFF" mask="url(#mask-2)" fill="#1F9AFF" fill-rule="nonzero">
+                                        <rect id="Color" x="0" y="0" width="21.8018018" height="21.8018018"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

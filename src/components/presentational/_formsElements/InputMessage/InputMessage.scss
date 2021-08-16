@@ -1,0 +1,48 @@
+.input-message {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #d5d8dc;
+  align-items: center;
+  border-radius: 22px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+
+  .input-message-inpt {
+    resize: none;
+    border: none;
+    padding: 10px 20px;
+    padding-right: 30px;
+    font-weight: bold;
+    max-height: 100px;
+    outline: none;
+    color: #000;
+    border-radius: 22px;
+    font-size: 14px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .klassicon-send {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #1f91ff;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+.input-message__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 34px;
+  width: 100%;
+}
+.input-message__button {
+  border: none;
+  background: transparent;
+}

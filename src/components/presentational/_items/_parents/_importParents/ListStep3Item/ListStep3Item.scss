@@ -1,0 +1,91 @@
+.list-step3-item {
+  display: grid;
+  grid-template-columns: 110px 150px 120px 144px auto;
+  grid-template-rows: 1fr;
+  align-items: center;
+  height: auto;
+  border-radius: 5px;
+  border: solid 1px rgba(46, 59, 80, 0.1);
+  background-color: #fff;
+  margin-top: 10px;
+}
+.list-step3-item__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.list-step3-item__label {
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  color: rgba(#2d3954, 0.6);
+}
+.list-step3-item__phone {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  color: #1f9aff;
+}
+.list-step3-item__email {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  color: #00b7ce;
+}
+.list-step3-item__class {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: -0.4px;
+  color: #0092ff;
+}
+.list-step3-item__buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .icon {
+    &:hover {
+      opacity: 0.8;
+    }
+    cursor: pointer;
+    font-size: 26px;
+    color: #f15b5b;
+  }
+}
+.list-step3-item__name-container {
+  padding: 20px 0;
+}
+
+.list-step3-item__name {
+  margin-right: 10px;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  color: #2d3955;
+  margin-bottom: 3px;
+  span {
+    font-weight: 500;
+    color: rgba(45, 57, 85, 0.6);
+  }
+}

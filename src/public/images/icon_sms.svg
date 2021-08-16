@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons / SMS Credits 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.125,23.5946974 L8.125,21.8610834 L6.75,21.8610834 C5.23121694,21.8610834 4,20.6029227 4,19.0509029 L4,7.81018057 C4,6.2581607 5.23121694,5 6.75,5 L23.25,5 C24.7687831,5 26,6.2581607 26,7.81018057 L26,19.0509029 C26,20.6029227 24.7687831,21.8610834 23.25,21.8610834 L15,21.8610834 L10.2074317,24.7995523 C9.5562588,25.1988062 8.71165095,24.9830334 8.32094723,24.3176104 C8.19272952,24.0992377 8.125,23.8493615 8.125,23.5946974 Z M13.8632941,20 L23,20 C23.5522847,20 24,19.5522847 24,19 L24,8 C24,7.44771525 23.5522847,7 23,7 L7,7 C6.44771525,7 6,7.44771525 6,8 L6,19 C6,19.5522847 6.44771525,20 7,20 L10.5,20 L10.5,22.5 L13.8632941,20 Z M7.66666667,8.75 L11.9444444,8.75 L11.9444444,18.125 L7.66666667,18.125 L7.66666667,8.75 Z M12.8611111,8.75 L17.1388889,8.75 L17.1388889,18.125 L12.8611111,18.125 L12.8611111,8.75 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-SMS-Credits-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icons" fill="#1F9AFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Colors-/-Primary-/-#1F9AFF" mask="url(#mask-2)" fill="#1F9AFF" fill-rule="nonzero">
+            <rect id="Color" x="0" y="0" width="30" height="30"></rect>
+        </g>
+    </g>
+</svg>

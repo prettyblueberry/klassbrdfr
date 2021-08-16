@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Options</title>
+    <desc>Created with Sketch.</desc>
+    <g id="DASHBOARD-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD---INCOMPLETE" transform="translate(-1402.000000, -38.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Navigation-Bar">
+                <g id="Profile" transform="translate(1248.000000, 21.000000)">
+                    <path d="M158.390434,17.488043 L161.350122,21.1876525 C161.522627,21.4032834 161.487666,21.7179296 161.272035,21.8904344 C161.183379,21.9613596 161.073223,22 160.959688,22 L155.040312,22 C154.76417,22 154.540312,21.7761424 154.540312,21.5 C154.540312,21.3864643 154.578953,21.276309 154.649878,21.1876525 L157.609566,17.488043 C157.78207,17.272412 158.096717,17.2374514 158.312348,17.4099561 C158.34118,17.433022 158.367369,17.4592107 158.390434,17.488043 Z" id="Options" transform="translate(158.000000, 19.500000) rotate(-180.000000) translate(-158.000000, -19.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

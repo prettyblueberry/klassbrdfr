@@ -1,0 +1,140 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.add-class-left-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+
+
+  position: relative;
+  .add-class-left-block__item {
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .add-class-left-block__oval {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    font-family: $font-medium;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    margin-left: 14px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add-class-left-block__text {
+    color: $color-dark-grey-blue;
+  }
+
+  .add-class-left-block__image {
+    width: 100%;
+  }
+  .add-class-left-block__photo {
+    position: absolute;
+    top: 180px;
+    z-index: 10;
+  }
+  .photo-component__photo {
+    width: 80px;
+    height: 80px;
+  }
+  .photo-component--empty .photo-component__photo-img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+  }
+  .popup-menu {
+    bottom: -30px;
+  }
+  .add-class-left-block__check-sign {
+    font-size: 10px;
+  }
+  .add-class-left-block__photo-container {
+    position: relative;
+    top: 10px;
+    right: calc( 50% - 52px);
+  }
+  .add-class-left-block__h1 {
+    margin-top: 76px;
+    width: 100%;
+    opacity: 0.6;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #2e3b50;
+  }
+  .add-class-left-block__h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    text-align: center;
+    color: var(--butterscotch);
+    b {
+      color: #ffb53a
+    }
+  }
+  .add-class-left-block__h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #2e3b50;
+    margin-bottom: 30px;
+    b {
+      color: #00b7ce;
+    }
+  }
+  .add-class-left-block__rectangle {
+    width: 21px;
+    height: 2px;
+    opacity: 0.1;
+    border-radius: 1px;
+    background-color: #2e3b50;
+    margin: 30px 0;
+  }
+  .add-class-left-block__description {
+    width: 254px;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #2e3b51;
+  }
+}
+.add-class-left-block__count {
+  display: inline-block;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}

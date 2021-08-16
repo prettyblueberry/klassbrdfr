@@ -1,0 +1,76 @@
+.percent-of-views {
+  padding: 30px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.percent-of-views__active-dot {
+  width: 12px;
+  height: 12px;
+  background: #1f9aff;
+  display: inline-block;
+}
+.percent-of-views__h1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.percent-of-views__h2 {
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #2e3b50;
+}
+.percent-of-views__top-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.percent-of-views__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.percent-of-views__right {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: right;
+  color: #2e3b50;
+}
+.percent-of-views__charts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.recharts-area-curve {
+  stroke-width: 6px;
+}
+.recharts-dot {
+  stroke-width: 6px;
+  r: 9px;
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .percent-of-views__h2 {
+    font-size: 30px;
+  }
+}

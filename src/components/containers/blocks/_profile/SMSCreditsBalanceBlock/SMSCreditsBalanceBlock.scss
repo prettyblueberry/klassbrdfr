@@ -1,0 +1,68 @@
+.sms-credits-balance-block {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 50px;
+}
+.sms-credits-balance-block__credits {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+}
+.sms-credits-balance-block__credits-left {
+  padding-right: 50px;
+}
+.sms-credits-balance-block__credits-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sms-credits-balance-block__balance {
+  height: 145px;
+  width: 100%;
+  background: #1f9aff;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+  .icon {
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    right: 21px;
+    top: 9px;
+    font-weight: lighter;
+  }
+}
+.sms-credits-balance-block__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #fff;
+  padding-left: 3px;
+}
+.sms-credits-balance-block__count {
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #fff;
+}
+.sms-credits-balance-block__link {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #1f9aff;
+  text-align: left;
+  margin-top: 20px;
+}

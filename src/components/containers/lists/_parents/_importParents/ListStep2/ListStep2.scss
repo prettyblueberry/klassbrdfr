@@ -1,0 +1,90 @@
+.list-step2 {
+  width: 100%;
+  overflow-x: auto;
+}
+.list-step2__wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  overflow-x: visible;
+}
+.column-list {
+  width: 100%;
+  height: 240px;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+  background-color: #fff;
+  overflow-y: auto;
+}
+.csv_step-2-form__select-deselect {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #1f9aff;
+  span {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .csv_step-2-form__select-deselect--unselect {
+    color:rgba(46, 59, 81, 0.6);
+  }
+}
+.list-step2__csv-panel2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  .check-box-labeled {
+    margin-top: 0;
+  }
+}
+.list-step2__csv-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-step2__error {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f15b5b;
+}
+
+
+
+.list-step2__csv-panel-left {
+  display: inline-block;
+}
+.list-step2__csv-panel-left-text {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.9px;
+  color: #2a2d63;
+}
+.list-step2__csv-panel-left-count {
+  display: inline-block;
+  border-radius: 16px;
+  background-color: rgba(#008fff, 0.2);
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #008fff;
+  margin-left: 10px;
+  padding: 4px 10px;
+}

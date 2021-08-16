@@ -1,0 +1,23 @@
+.header-icon {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  color: #2e3b51;
+  .icon {
+    color: #1f9aff;
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 17px;
+    &:before {
+      display: block;
+    }
+  }
+}

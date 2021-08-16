@@ -1,0 +1,43 @@
+.sms-info {
+  border-radius: 5px;
+  background-color: rgba(#1f9aff, 0.03);
+  padding: 50px 50px 0 50px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sms-info__blocks {
+  width: 100%;
+  position: relative;
+}
+.sms-info__buttons {
+  width: 100%;
+}
+.sms-info__h1 {
+  font-size: 20px;
+  text-align: left;
+}
+.sms-info__h2 {
+  text-align: left;
+}
+.sms-info__next {
+  width: 100%;
+  margin-bottom: 10px !important;
+  .icon {
+    position: absolute !important;
+    top: 9px !important;
+    right: 10px !important;
+  }
+}
+.sms-info__cancel {
+  width: 100%;
+  margin-bottom: 20px !important
+}
+.sms-info__icon {
+  top: -11px;
+  position: absolute;
+  right: 0;
+}

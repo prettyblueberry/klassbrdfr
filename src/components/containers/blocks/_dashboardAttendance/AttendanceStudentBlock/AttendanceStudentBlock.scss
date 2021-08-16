@@ -1,0 +1,208 @@
+.attendance-student-block {
+  box-sizing: border-box;
+  margin-bottom: 200px;
+  text-align: center;
+  padding: 50px 100px;
+  width: 100%;
+}
+.attendance-student-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.attendance-student-block__header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .icon {
+    color: #1f9aff;
+    font-size: 35px;
+  }
+}
+.attendance-student-block__header-img {
+  width: 26px;
+  height: auto;
+}
+.attendance-student-block__header-title {
+  color: #2e3b50;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  margin-left: 12px;
+}
+
+
+.attendance-student-block__epmty {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+.attendance-student-block__epmty-img {
+  margin-bottom: 30px;
+}
+.attendance-student-block__epmty-title {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  margin-bottom: 5px;
+  b {
+    color: #1f9aff;
+  }
+}
+.attendance-student-block__epmty-desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.attendance-student-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -1px;
+  color: #2b345c;
+}
+.attendance-student-block__header-count {
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.11px;
+  text-align: center;
+  color: #1f9aff;
+  background: rgba( #1f9aff, 0.2);
+  border-radius: 16px;
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+
+.attendance-student-block__page-block-first {
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  min-height: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .attendance-student-block__h1 {
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(45, 58, 83, 0.6);
+    margin-bottom: 30px;
+    b {
+      font-weight: 600;
+      color: #2d3a53;
+    }
+  }
+  .attendance-student-block__h2 {
+    font-family: GalanoGrotesque;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: -0.8px;
+    text-align: center;
+    color: #2e3b51;
+  }
+  .attendance-student-block__h3 {
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.65px;
+    text-align: center;
+    color: #008fff;
+    margin-top: 10px;
+  }
+  .attendance-student-block__left-unicorn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .attendance-student-block__right-unicorn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.attendance-student-block__head-block {
+  position: relative;
+  .back-button {
+    left: 0 !important;
+    top: 0px !important;
+  }
+}
+.attendance-student-block__head-block-right-h1 {
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #2c3856;
+  b {
+    color: rgba(44, 56, 86, 0.6);
+  }
+}
+.attendance-student-block__head-block-right-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.65px;
+  text-align: center;
+  color: #0a95ff;
+}
+.attendance-student-block__page-block-second {
+  display: grid;
+  grid-template-columns: calc(50% - 15px) 30px calc(50% - 15px);
+  grid-template-rows: 1fr;
+  margin: 30px 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .attendance-student-block {
+    padding: 50px 20px;
+  }
+}

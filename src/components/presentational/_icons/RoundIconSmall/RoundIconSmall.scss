@@ -1,0 +1,18 @@
+.round-icon-small {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+  font-size: 18px;
+  .icon {
+    position: relative;
+    display: inline-block;
+    &:before {
+      display: block;
+    }
+  }
+}

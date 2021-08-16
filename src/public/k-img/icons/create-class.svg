@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>create/join class</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeline-(≥1200px)" transform="translate(-20.000000, -377.000000)">
+            <g id="Mes-classes">
+                <g id="create/join-class" transform="translate(20.000000, 377.000000)">
+                    <circle id="Oval-Copy-5" fill="#2E3B50" opacity="0.1" cx="25" cy="25" r="25"></circle>
+                    <g id="icon_add" transform="translate(15.000000, 15.000000)" fill="#1F9AFF" stroke="#1F9AFF" stroke-width="0.5">
+                        <path d="M11.25,8.75 L19,8.75 C19.6903559,8.75 20.25,9.30964406 20.25,10 C20.25,10.6903559 19.6903559,11.25 19,11.25 L11.25,11.25 L11.25,19 C11.25,19.6903559 10.6903559,20.25 10,20.25 C9.30964406,20.25 8.75,19.6903559 8.75,19 L8.75,11.25 L1,11.25 C0.309644063,11.25 -0.25,10.6903559 -0.25,10 C-0.25,9.30964406 0.309644063,8.75 1,8.75 L8.75,8.75 L8.75,1 C8.75,0.309644063 9.30964406,-0.25 10,-0.25 C10.6903559,-0.25 11.25,0.309644063 11.25,1 L11.25,8.75 Z" id="add"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

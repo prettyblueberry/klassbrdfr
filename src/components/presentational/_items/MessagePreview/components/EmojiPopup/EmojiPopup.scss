@@ -1,0 +1,61 @@
+.emoji-popup {
+  .icon-reactions-add {
+    font-size: 20px !important;
+    padding-top: 7px;
+  }
+}
+
+.emoji-popup__content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 8px !important;
+  z-index: 501;
+  position: absolute;
+  bottom: 5px;
+}
+
+.emoji-popup__projection {
+  > div {
+    display: flex;
+    align-items: center;
+  }
+
+  &-emoji {
+    > img {
+      width: 25px;
+    }
+  }
+}
+
+.emoji-popup__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+  font-family: Galano Medium;
+
+  img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  span {
+    padding: 3px;
+    display: contents;
+  }
+}
+
+.emoji-popup__backdrop {
+  position: fixed;
+  z-index: 500;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+}

@@ -1,0 +1,125 @@
+.choose-package-form {
+  max-width: unset;
+  position: relative;
+}
+.choose-package-packages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose-package-form__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: rgba(#2e3b50, 0.6);
+}
+.choose-package-form__h2 {
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #2c3856;
+}
+
+
+.choose-package-form__more {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #1f9aff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.choose-package-form .choose-package-form__submit {
+  width: 100%;
+  margin-bottom: 84px;
+  .icon {
+    position: absolute;
+    right: 15px;
+    top: 9px !important;
+  }
+}
+.choose-package-form__secure-block {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(#1f9aff, 0.1);
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.choose-package-form__secure {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.6px;
+  color: rgba(#2e3b50, 0.6);
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #1f9aff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
+.choose-package-form__btn {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.choose-package-form__btn-cost {
+  display: inline-block;
+  position: absolute;
+  right: 73px;
+  top: 9px;
+  z-index: 100;
+  font-size: 18px;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #fff;
+  opacity: 0.5;
+}
+.choose-package-form__back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}

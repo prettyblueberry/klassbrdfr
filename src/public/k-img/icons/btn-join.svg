@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-33.3%" y="-26.7%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="CREATE/JOIN-CLASS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create/Join-class-(≥1200px)" transform="translate(-700.000000, -386.000000)">
+            <g id="Content" transform="translate(449.000000, 181.000000)">
+                <g id="Join-class" transform="translate(100.000000, 100.000000)">
+                    <g id="icon" transform="translate(157.000000, 109.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M17.416709,14.1619586 L15.5095162,12.2555492 C15.1846842,11.9308506 15.1846842,11.4044102 15.5095162,11.0797116 C15.8343482,10.755013 16.361005,10.755013 16.685837,11.0797116 L20.0129746,14.4054826 C20.3378066,14.7301812 20.3378066,15.2566216 20.0129746,15.5813202 L16.685837,18.9070912 C16.361005,19.2317898 15.8343482,19.2317898 15.5095162,18.9070912 C15.1846842,18.5823926 15.1846842,18.0559522 15.5095162,17.7312536 L17.416709,15.8248441 L10.2751858,15.8248441 C9.81580394,15.8248441 9.44340138,15.4525945 9.44340138,14.9934014 C9.44340138,14.5342082 9.81580394,14.1619586 10.2751858,14.1619586 L17.416709,14.1619586 Z" id="Combined-Shape" fill="#1F9AFF" fill-rule="nonzero" transform="translate(14.850000, 14.993401) rotate(-270.000000) translate(-14.850000, -14.993401) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+.panel-parents-list__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 24px 0;
+}
+.panel-parents-list__invite {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -1.2px;
+  text-align: right;
+  color: #0092ff;
+  .icon {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}

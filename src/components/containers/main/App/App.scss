@@ -1,0 +1,121 @@
+
+
+
+@import "../../../../public/fontawesome/scss/fontawesome.scss";
+@import "../../../../public/fontawesome/scss/solid.scss";
+@import "../../../../public/fontawesome/scss/brands.scss";
+
+@import "../../../../public/klassicon/styles.scss";
+
+.version-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'GalanoGrotesque';
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #2e3b50;
+  }
+  span {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #1f9aff;
+  }
+  ol {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+      min-width: 120px;
+      div {}
+    }
+  }
+}
+.ipad-portrait__message {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background: #fff;
+}
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+  .ipad-portrait__message {
+    //display: flex;
+  }
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+
+blue {
+  color: #1f9aff;
+}
+purple {
+  color: #8f63de;
+}
+coral {
+  color: #f15b5b;
+}
+butterscotch {
+  color: #ffb53a;
+}
+turquoiseblue {
+  color: #00b7ce;
+}
+green {
+  color: #00b7ce
+}
+
+.fix-windows {
+  //TIMELINE
+
+  .message-preview {
+    .message-preview__header-label > span {
+      padding-top: 0px;
+    }
+
+    .emoji-popup {
+      top: 2px;
+    }
+
+    .message-preview__footer-comment > span, .message-preview__footer-views > span, .message-preview__footer-reaction span {
+      position: relative;
+      top: -2px;
+    }
+  }
+
+  //Rightside menu
+
+  .users-inside-class__top-panel-count {
+    padding: 0px 12px 4px;
+  }
+}

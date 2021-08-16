@@ -1,0 +1,17 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../../themes/light/colors';
+
+.link-class-request-sent {
+  text-align: center;
+  
+}
+.link-class-request-sent__unicorn-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.link-class-request-sent__unicorn-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

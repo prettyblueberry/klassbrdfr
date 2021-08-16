@@ -1,0 +1,22 @@
+.dnd-component {
+  border: 1px solid transparent;
+}
+.dnd-component__dragged-container {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.05;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #1f9aff, rgba(31, 154, 255, 0));
+}
+.dnd-component__dragged {
+  display: inline-block;
+  opacity: 0;
+  pointer-events : none;
+}
+.dnd-component--dragged-file {
+  border: 2px dashed #333;
+  padding: 4px;
+}
+.dnd-component--dragged-file * {
+  pointer-events: none;
+}

@@ -1,0 +1,139 @@
+.btn.button-component {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  height: 40px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  //white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  .icon {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+  }
+  .icon__left {
+    margin-right: 8px;
+  }
+  .icon__right {
+    margin-left: 8px;
+  }
+  .flip-x {
+    transform: scaleX(-1);
+  }
+  .flip-y {
+    transform: scaleY(-1);
+  }
+  &.btn-primary {
+    border-radius: 100px;
+    background-color: #1f9aff;
+    border-color: #1f9aff;
+    color: #FFFFFF;
+    transition: 0.3s ease all;
+    font-family: GalanoGrotesque, sans-serif;
+    font-size: 16px;
+    &:hover {
+      background-color: #1775C2;
+      border-color: #1775C2;
+      color: #FFFFFF;
+    }
+  }
+  &.btn-outline-blue {
+    border: 1px solid #1f9aff;
+    border-radius: 50px;
+    background: none;
+    color: #1f9aff;
+    box-shadow: none;
+    font-weight: 400;
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+  }
+  &.btn-outline-white {
+    border: 1px solid white;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    box-shadow: none;
+    font-weight: 400;
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+  }
+
+  &.btn-transparent-white {
+  display: inline-block;
+  border: none;
+  background: none !important;
+  color: #fff;
+  box-shadow: none;
+  font-weight: 400;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  &:hover {
+    color: white;
+    opacity: 0.8;
+  }
+}
+&.btn-transparent-blue {
+  display: inline-block;
+  border: none;
+  background: none !important;
+  color: #1f9aff;
+  box-shadow: none;
+  font-weight: 400;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  &:hover {
+    color: #1f9aff;
+    opacity: 0.8;
+  }
+}
+&.btn-dark-blue {
+  border-radius: 21px;
+  background-color: #007fe7 ;
+  color: #fff;
+  box-shadow: none;
+  font-weight: 600;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-style: normal;
+    &:hover {
+      color: #fff;
+      background-color: #0285f0;
+    }
+  }
+  &.btn-icon {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  .btn-icon__left {
+    margin-right: 8px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+  }
+  &.btn-only-text {
+    background: transparent;
+    border: none;
+    color: #000;
+  }
+  &.button-component--disabled,
+  &.button-component--disabled:hover {
+    transition: none;
+    background: transparent;
+    color: rgba(#2E3B50, 0.3) !important;
+    border: 2px solid rgba(#2E3B50, 0.3)!important;
+    cursor: not-allowed;
+  }
+}

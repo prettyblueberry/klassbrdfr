@@ -1,0 +1,166 @@
+@import '../../../../themes/light/colors';
+
+.three-grid-layout {
+  height: 100%;
+  width: 100%;
+  //min-width: 992px;
+  //overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px auto;
+  background: #f9fafc;
+  position: relative;
+  overflow: hidden;
+
+}
+.three-grid-layout__header {
+
+}
+.three-grid-layout__body {
+  height: 100%;
+  overflow-y: hidden;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 300px auto 0px;
+  grid-template-rows: 1fr;
+}
+.three-grid-layout--have-right-block {
+  .three-grid-layout__body {
+    grid-template-columns: 300px auto 400px;
+  }
+}
+.three-grid-layout__left {
+  padding-left: 30px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.three-grid-layout__center {
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .small-purple {
+    width: 14.3px;
+    height: 33px;
+    transform: rotate(115deg);
+    background-color: #8f63de;
+    position: absolute;
+    right: 12px;
+    top: 440px;
+  }
+
+  .small-turquoise-blue {
+    width: 7.4px;
+    height: 7.4px;
+    transform: rotate(-337deg);
+    background-color: #00b7ce;
+    position: absolute;
+    right: 153px;
+    top: 250px;
+  }
+
+  .small-coral {
+    width: 8px;
+    height: 8px;
+    transform: rotate(-46deg);
+    background-color: #f15b5b;
+    position: absolute;
+    top: 250px;
+    left: 68px;
+  }
+  .small-butterscotch {
+    width: 29.8px;
+    height: 29.8px;
+    border-radius: 14.9px;
+    transform: rotate(-361deg);
+    background-color: #ffb53a;
+    position: absolute;
+    top: 470px;
+    left: 13px;
+  }
+
+}
+.three-grid-layout__right {
+
+}
+
+@media screen and (max-width: 992px) {
+  .three-grid-layout__body {
+    grid-template-columns: 300px auto 0;
+  }
+  .three-grid-layout__right {
+    display: none;
+  }
+  .three-grid-layout__center {
+    //padding-right: 34px;
+    padding-right: unset;
+  }
+}
+@media (max-width: 1100px) {
+  .edge-fix,
+  .safari-fix {
+    .three-grid-layout__center {
+      padding-left: 70px !important;
+    }
+    .dashboard-block,
+    .listclasses-main-block,
+    .my-messages-block,
+    .parents-block {
+      padding: 50px 20px !important;
+    }
+  }
+
+  .three-grid-layout__body {
+    grid-template-columns: 64px auto 0px;
+  }
+  .three-grid-layout__center {
+   padding-right: unset;
+  }
+  .three-grid-layout--have-right-block {
+    .three-grid-layout__body {
+      grid-template-columns: 64px auto 323px;
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .three-grid-layout__center {
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .choose-type-message-right {
+    .back-button {
+      left: 15px;
+    }
+   }
+}
+
+.edge-fix,
+.safari-fix {
+  .three-grid-layout {
+    display: block !important;
+  }
+  .three-grid-layout__body {
+    display: block !important;
+  }
+  .three-grid-layout {
+    
+  }
+  .three-grid-layout__center {
+    height: 100%;
+    padding-left: 300px;
+    padding-top: 80px;
+  }
+}
+.edge-fix {
+  .three-grid-layout__left {
+    height: 0;
+
+  }
+}

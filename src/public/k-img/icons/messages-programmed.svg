@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>messages programme</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="Timeline-(≥1200px)" transform="translate(-142.000000, -437.000000)">
+            <g id="Side-Menu" transform="translate(120.000000, 125.000000)">
+                <g id="Sidemenu" transform="translate(0.000000, 49.000000)">
+                    <g id="1" transform="translate(0.000000, 186.000000)">
+                        <g id="message-programmés" transform="translate(22.000000, 77.000000)">
+                            <g id="messages-programme">
+                                <circle id="Oval" stroke="#2E3B50" stroke-width="2" cx="10" cy="10" r="9"></circle>
+                                <path d="M10,3.75 L10,3.75 C10.6903559,3.75 11.25,4.30964406 11.25,5 L11.25,10 L8.75,10 L8.75,5 C8.75,4.30964406 9.30964406,3.75 10,3.75 Z" id="Rectangle-42" fill="#2E3B50"></path>
+                                <path d="M11.875,6.875 L11.875,6.875 C12.5653559,6.875 13.125,7.43464406 13.125,8.125 L13.125,13.125 L10.625,13.125 L10.625,8.125 C10.625,7.43464406 11.1846441,6.875 11.875,6.875 Z" id="Rectangle-42" fill="#2E3B50" transform="translate(11.875000, 10.000000) rotate(-270.000000) translate(-11.875000, -10.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

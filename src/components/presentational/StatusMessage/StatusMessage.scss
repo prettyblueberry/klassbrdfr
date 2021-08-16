@@ -1,0 +1,51 @@
+.status-message {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: GalanoGrotesque;
+  font-size: 9.2px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 2px;
+  border-radius: 13px;
+  margin-left: 5px;
+  .icon {
+    font-size: 8px;
+    transform: scaleX(-1);
+    margin-right: 6px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+}
+.status-message__send {
+  color: #46e297;
+  background: rgba(#46e297, 0.2);
+  .icon {
+    background: #46e297;
+  }
+}
+.status-message__deleted {
+  color: #f15b5b;
+  background: rgba(#f15b5b, 0.2);
+  .icon {
+    background: #f15b5b;
+  }
+}
+.status-message__draft {
+  color: #ffb53a;
+  background: rgba(#ffb53a, 0.2);
+  .icon {
+    background: #ffb53a;
+  }
+}

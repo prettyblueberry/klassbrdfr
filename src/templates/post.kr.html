@@ -1,0 +1,1052 @@
+<style>
+  .k-timeline-container {
+      position: relative;
+      width: 100%;
+  }
+
+  .k-timeline #timeline_cover_wrapper {
+      text-align: center;
+  }
+
+  .k-timeline #timeline_cover {
+      box-shadow: 0 1px 10px 0 rgba(46, 59, 80, 0.1);
+      background: white;
+      border-radius: 5px;
+      font-family: Norms Medium;
+      overflow: hidden;
+      border: 0;
+      margin: 0;
+      position: relative;
+  }
+
+  #timeline_pin.widget-box, #timeline_unprcomment.widget-box, #timeline_unproc.widget-box {
+      box-shadow: 0 1px 10px 0 rgba(46, 59, 80, 0.1) !important;
+      background: white;
+      border-radius: 5px !important;
+      font-family: Norms Medium;
+      overflow: hidden;
+      border: 0 !important;
+      position: relative;
+  }
+  .k-timeline #timeline_cover_img {
+      border-bottom-left-radius: 280px 30px;
+      border-bottom-right-radius: 280px 30px;
+      position: relative;
+  }
+
+  .unreadchat_notif {
+      position: absolute;
+      height: 18px;
+      border-radius: 8.5px;
+      background-color: #f15b5b;
+      color: white;
+      font-family: Norms Medium;
+      top: 5px;
+      right: 5px;
+      line-height: 18px;
+      text-align: center;
+      font-size: 12px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .k-timeline #timeline_cover_title {
+
+  }
+
+  .k-timeline #timeline_cover_subtitle {
+      color: #1f9aff;
+  }
+
+  .k-timeline #timeline_member, .k-timeline #cover_curve {
+      position: absolute;
+      width: 100%;
+      background: no-repeat;
+      border: 0;
+      box-shadow: none;
+      bottom: -12px;
+      text-align: center;
+      cursor: pointer;
+  }
+
+
+
+
+  .round-label {
+
+  	border-radius: 1000px;
+  	padding: 2px 10px;
+  	margin: 8px 0;
+
+
+  }
+
+  .k-timeline #timeline_member .small_avatar {
+      border-radius: 100%;
+      border: 2px solid white;
+      width: 40px;
+      box-sizing: border-box;
+      margin-left: -20px;
+     	height: 40px;
+     	overflow: hidden;
+     	display: inline-block;
+     	position: relative;
+  }
+
+
+  .k-timeline #timeline_member .small_avatar .badge-member{
+       opacity: 0.5;
+       width: 40px;
+       height: 40px;
+       position: absolute;
+       left: 0;
+       top: 0;
+  }
+
+  .k-timeline #timeline_member .small_avatar .badge-member-number{
+      color: white;
+      width: 36px;
+      text-align: center;
+      position: absolute;
+      font-size: 16px;
+      top: 0;
+      line-height: 36px;
+      height: 40px;
+      left: 0;
+  }
+
+
+  .k-timeline #timeline_member .small_avatar img{
+     width: 100%;
+  }
+
+  .k-timeline #timeline_member .small_avatar:first-child {
+      margin: 0;
+  }
+
+  .k-timeline #timeline_member a {
+      display: none;
+  }
+
+  .k-timeline #timeline_content {
+      padding: 0px;
+  }
+
+  .k-timeline #timeline_posts {
+      padding: 20px;
+      padding-top: 0;
+  }
+
+  .timeline-homeworks {
+
+
+  	box-shadow: 0 1px 10px 0 rgba(46, 59, 80, 0.1) !important;
+      background: white !important;
+      border-radius: 5px !important;
+      font-family: Norms Medium;
+      border: 0 !important;
+      margin-top: 22px !important;
+      height: 140px;
+      padding: 10px;
+
+
+  }
+
+
+  .timeline-homeworks .homework-cell{
+
+  	box-shadow: 0 1px 10px 0 #8d8d8d !important;
+      background: white !important;
+      border-radius: 5px !important;
+      font-family: Norms Medium;
+      border: 0 !important;
+      height: 70px;
+      width: 120px;
+      display: inline-block;
+      margin-right:10px;
+      padding: 5px;
+      cursor: pointer;
+
+  }
+
+  .timeline-filter{
+      text-align: center;
+      padding-top: 20px;
+      border-top: 0;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+  }
+
+  .timeline-filter span{
+      color: grey;
+      font-family: Norms Regular;
+      font-weight: bold;
+  }
+
+  .timeline-filter span img {
+      margin-right: 10px;
+      opacity: 0.5;
+  }
+
+  .timeline-filter strong {
+      color: black !important;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+  }
+
+  .timeline-filter ul {
+      padding-left: 0;
+      height: 130px;
+      overflow-y: scroll;
+  }
+
+
+
+  .k-timeline #post_input {}
+  .k-timeline #post_input .widget-toolbox{
+      background: white;
+      border: 0;
+  }
+
+  .timeline_post_avatar img {
+      border: 0;
+  }
+
+  .k-timeline #timeline_type_menu {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+
+  #timeline_request_menu img{
+  	margin-right: 8px;
+  }
+
+
+  #timeline_request_menu.selected{
+  	background: #8f63de !important;
+  }
+
+  #timeline_post_menu img{
+  	margin-right: 8px;
+  }
+
+
+  #timeline_post_menu.selected {
+  	background: #1f91ff !important;
+  }
+
+  .k-timeline #timeline_type_menu button {
+      border: 0;
+      background: white;
+      box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      font-family: Norms Regular;
+      font-size: 10px;
+      color: black;
+      padding: 12px 22px;
+      outline: 0;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-weight: bold;
+  }
+
+  .k-timeline #timeline_type_menu button i{
+      color: #1f91ff;
+      margin-right: 10px;
+  }
+
+
+
+
+  .k-timeline #timeline_type_menu button.selected {
+      color: white;
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1200px){
+      .k-timeline-container {
+          width: calc(100% - 300px);
+          margin-left: 300px;
+      }
+  }
+
+  @media screen and (max-width: 768px){
+      .k-timeline {
+          margin-top: -45px !important;
+      }
+  }
+  .k-post {
+      position: relative;
+  }
+
+  .k-post .post_separator{
+        position: absolute;
+        top: -29px;
+        left: calc(50% - 7px);
+
+  }
+
+  .k-post.widget-box {
+      box-shadow: 0 1px 10px 0 rgba(46, 59, 80, 0.1) !important;
+      background: white !important;
+      border-radius: 4px !important;
+      font-family: Norms Medium;
+      border: 0 !important;
+      margin-top: 35px !important;
+      margin-bottom: 3px !important;
+  }
+
+  .k-post .well {
+      border: 0;
+      outline: 0;
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      position: relative;
+  }
+
+  .k-post .well h6 {
+      font-family: Norms Medium;
+      color: black;
+      margin-bottom: 0;
+  }
+
+  .k-post .color-bar {
+      position: absolute;
+      content: "";
+      display: block;
+      background: none !important;
+      height: 5px;
+      width: 100%;
+      top: -5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      left: 0;
+      text-align: center;
+  }
+
+  .k-post .color-bar.message,
+  .k-post .color-bar.message span {
+      background: #8f63de;
+  }
+
+  .k-post .color-bar.list,
+  .k-post .color-bar.list span {
+      background: #ffb53a;
+  }
+
+  .k-post .color-bar.poll,
+  .k-post .color-bar.poll span {
+      background: #f15b5b;
+  }
+
+  .k-post .color-bar.media,
+  .k-post .color-bar.media span {
+      background: #ffb53a;
+  }
+
+  .k-post .color-bar.document,
+  .k-post .color-bar.document span {
+      background: #00b7ce;
+  }
+
+  .k-post .color-bar.event,
+  .k-post .color-bar.event span {
+      background: #f15b5b;
+  }
+
+  .k-post .color-bar.location,
+  .k-post .color-bar.location span {
+      background: #3740c7;
+  }
+
+  .k-post .color-bar.homework,
+  .k-post .color-bar.homework span {
+      background: #1f9aff;
+  }
+
+  /* Need to fill these ones */
+
+  .k-post .color-bar.absence,
+  .k-post .color-bar.absence span {
+      background: #f15b5b;
+  }
+
+  .k-post .color-bar.lateness,
+  .k-post .color-bar.lateness span {
+      background: #1f9aff;
+  }
+
+  .k-post .color-bar.care,
+  .k-post .color-bar.care span {
+      background: #ffc443;
+  }
+
+  .k-post .color-bar.appointment,
+  .k-post .color-bar.appointment span {
+      background: #3740c7;
+  }
+
+  .k-post .color-bar.question,
+  .k-post .color-bar.question span {
+      background: #00b7ce;
+  }
+
+  .k-post .color-bar span{
+      background: #ffb53a;
+      display: inline-block;
+      font-family: Norms Medium;
+      font-size: 11px;
+      color: white;
+      line-height: 13px;
+      padding-top: 2.5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: absolute;
+      border-radius: 4px;
+      top: -6px;
+      padding-bottom: 2.5px;
+      left: calc(50% - 45px);
+      width: 90px;
+  }
+
+  .k-post .timeline_post_avatar img {
+      border: none;
+  }
+
+  .k-post .timeline_post_info {
+      max-width: calc(100% - 75px);
+  }
+
+  .k-post .timeline_post_info h5 {
+      font-family: Norms Regular;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 5px;
+  }
+
+  .k-post .timeline_post_time {
+      font-family: Norms Regular;
+      font-weight: 400;
+      font-size: 10px;
+  }
+
+  .k-post .timeline_post_body_text {
+      font-family: Norms Regular;
+      font-size: 13px;
+      font-weight: 600;
+      color: #393939;
+      padding: 12px 12px;
+  }
+
+  .k-post .timeline_post_options {
+      padding: 0;
+  }
+
+  .k-post .timeline_post_options a.dropdown-toggle {
+      color: #b8b8b8;
+  }
+
+  .k-post .timeline_post_body_checklist {
+
+      padding: 16px;
+      box-sizing: border-box;
+
+      color: #b8b8b8;
+      font-weight: 400;
+      font-family: Norms Regular;
+      font-size: 13px;
+  }
+
+  .k-post .timeline_post_body_checklist p {
+      border-bottom: 1px solid #b8b8b8;
+      font-weight: bold;
+      font-size: 16px;
+      color:black;
+  }
+
+  .k-post .timeline_post_body_checklist ul {
+      list-style-type: none;
+      margin: 0;
+  }
+
+  .k-post .timeline_post_body_checklist ul li{
+      margin-bottom: 10px;
+  }
+
+  .k-post .timeline_post_body_checklist ul li span{
+      display: inline-block;
+      background: #1f9aff;
+      color: white;
+      border-radius: 1000px;
+      width: 22px;
+      height: 22px;
+      text-align: center;
+      font-family: Norms Regular;
+      margin-right: 6px;
+  }
+
+  .k-post .timeline_post_body_poll {
+
+      padding: 16px;
+      box-sizing: border-box;
+      color: #b8b8b8;
+      font-weight: 400;
+      font-family: Norms Regular;
+      font-size: 13px;
+  }
+
+  .k-post .timeline_post_body_poll button {
+      margin-bottom: 10px;
+      padding: 5px;
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      font-size: 12px;
+  }
+
+  .k-post .timeline_post_body_poll .body_poll_question {
+      border-bottom: 1px solid #b8b8b8;
+      font-weight: bold;
+      font-size: 16px;
+      color:black;
+  }
+
+  .k-post .timeline_post_body_poll .body_poll_date {
+      text-align: center;
+      font-size: 12px;
+      margin: 0;
+  }
+
+  .k-post .timeline_post_body_poll .body_poll_anonymous {
+      text-align: center;
+      font-size: 12px;
+      color: #f15b5b;
+  }
+  .k-post .timeline_post_body_poll .body_poll_result p{
+      margin: 0;
+  }
+
+  .k-post .timeline_post_body_poll .body_poll_result .progress-bar{
+      margin-top: 5px;
+      margin-bottom: 10px;
+  }
+
+  .timeline_post_footer_inside a {
+      color: #b8b8b8;
+      font-family: Norms Medium;
+  }
+
+
+</style>
+
+
+<%
+
+
+function getDefaultAvatar(img){
+  return (img && img.trim() != "")?img:"/images/img_profile.png"
+}
+
+function getDefaultKlassCover(img){
+  return (img && img.trim() != "")?img:"/krimages/classroom.png"
+}
+
+
+  var post_type = null;
+  if(post.location){
+    post_type = $t("location");
+  } else if(post.event){
+    post_type = $t("event");
+  }  else if(post.poll){
+    post_type = $t("poll");
+  } else if(post.checklist){
+    post_type = $t("list");
+  } else if(post.homework){
+    post_type = $t("homework");
+  } else if(post.documents.length > 0){
+    post_type = $t("document");
+  } else if(post.videos.length > 0 || post.audios.length > 0 || post.images.length > 0){
+    post_type = $t("media");
+  } else  {
+    post_type = $t("message");
+  }
+%>
+<div class="timeline_post k-post widget-box" id="post_<%= post.id %>" data-id="<%= post.id %>">
+  <div class="color-bar <%= post_type %>">
+  <img class=post_separator src="/k-img/post_separator.png" width="14">
+
+    <span> <%= post_type %></span>
+  </div>
+  <div class="widget-main" style="padding:0">
+    <div class="timeline_post_header clearfix" style="padding:12px 12px 0 12px">
+      <% if(post.is_pinned){ %><img width=20 src="/images/push-pin.png" style="position:absolute;left:-20px;top:-20px" ><% } %>
+      <div class="timeline_post_avatar">
+        <img src="<%= getDefaultAvatar(post.user.thumb_image_url) %>" >
+      </div>
+      <div class="timeline_post_info">
+        <h5><b><%=post.user.name %></b> <% if(post.is_edited){ %><i class="small">(edited)</i><% } %>
+
+        </h5>
+        <div class="timeline_post_time"><%= moment(post.date).format('lll') %></div>
+      </div>
+      <% if(!post.klass.is_closed){ %>
+
+      <div class="timeline_post_options widget-toolbar no-border">
+        <% if(post.is_scheduled){ %><img src="/images/icon_clock.png" width=16><% } %>
+        <% if(post.is_mute){ %><img src="/images/icon_mute.png" width=16><% } %>
+        <% if(post.is_favorite){ %><img src="/images/star.png" width=16><% } %>
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+          <i class="ace-icon fa fa-ellipsis-h"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+
+          <% if(!post.is_mute){ %>
+            <li><a onclick=mutePost("<%= post.id %>",true)><% $t("Mute")%></a></li>
+          <% }else{ %>
+            <li><a onclick=mutePost("<%= post.id %>",false)><% $t("Un-Mute")%></a></li>
+          <% } %>
+          <% if(!post.is_favorite){ %>
+            <li><a onclick=favoritePost("<%= post.id %>",true)><% $t("Favorite post")%></a></li>
+          <% }else{ %>
+            <li><a onclick=favoritePost("<%= post.id %>",false)><% $t("Remove from Favorite")%></a></li>
+          <% } %>
+                      <% if(post.audios.length){ %>
+          <li><a onclick=download_post_audio("<%= post.id %>")><% $t("Download Audio") %></a></li>
+                      <% } %>
+                      <% if(post.videos.length){ %>
+          <li><a onclick=download_post_video("<%= post.id %>")><% $t("Download Video") %></a></li>
+                      <% } %>
+                      <% if(post.images.length){ %>
+          <li><a onclick=download_post_image("<%= post.id %>")><% $t("Download Image") %></a></li>
+                      <% } %>
+          <% if(post.canEdit()){ %>
+
+            <li><a onclick=show_post_input("<%= post.id %>")><% $t("Edit Post")%></a></li>
+                          <% if(post.event){ %>
+                              <li><a onclick=postEvent("<%= post.id %>")><% $t("Edit Event")%></a></li>
+
+                          <% } %>
+                          <% if(post.checklist){ %>
+                              <li><a onclick=postList("<%= post.id %>")><% $t("Edit List")%></a></li>
+
+                          <% } %>
+
+                          <% if(post.poll && post.poll.getTotalVotes() == 0){ %>
+                              <li><a onclick=postPoll("<%= post.id %>")><% $t("Edit Poll")%></a></li>
+
+                          <% } %>
+                          <% if(post.homework){ %>
+                              <li><a onclick=postHomework("<%= post.id %>")><% $t("Edit Homework")%></a></li>
+
+                          <% } %>
+
+
+          <% } %>
+
+          <% if(post.canDelete() && !post.campaignID){ %>
+          <% if(!post.is_pinned){ %>
+            <li><a onclick=pinPost("<%= post.id %>",true)><% $t("Pin post")%></a></li>
+          <% }else{ %>
+            <li><a onclick=pinPost("<%= post.id %>",false)><% $t("Unpin post")%></a></li>
+          <% } %>
+
+
+          <li><a onclick=deletePost("<%= post.id %>")><% $t("Delete")%></a></li>
+          <% } %>
+        </ul>
+      </div>
+      <% } %>
+    </div>
+    <% if(post.text){%>
+    <div class="timeline_post_body" style="">
+      <div class="timeline_post_body_text <%= (post.is_translated && (RoomClient.getInstance().user.post_language =="ar" || RoomClient.getInstance().user.post_language== "he"))?"text-right":"" %>" >
+        <% if(_.indexOf(readMore,post.id)>-1) print(nl2br(processBody(post.text,1))); else print(nl2br(moreLess(processBody(post.text,1),100,post.id))); %>
+        <% if(room.language  && !post.is_translated && RoomClient.getInstance().user.post_language && post.text && room.language != RoomClient.getInstance().user.post_language){ %>
+        <br><span id="translate_<%= post.id %>"><a style="font-size:11px" onclick=translatePost("<%= post.id %>")><i class="fa fa-cog"></i> <%=  $t("See the {{name}} translation").replace( "%name%",alllanguages[RoomClient.getInstance().user.post_language].nativeName)  %></a></span>
+        <% } %>
+      </div>
+      <% } %>
+              <% if(post.event){ %>
+                  <%=  loadTemplate("tmpl-timeline-post-event",{post:post}) %>
+      <% } else if(post.location){ %>
+        <div class="timeline_post_url" style="margin-top:10px;box-shadow: 0 0 0 1.5px rgba(0, 0, 0, .1) inset, 0 1px 1px rgba(0, 0, 0, .05)">
+          <div class="timeline_post_url_photo">
+            <img  width=100% height=240 src="https://maps.googleapis.com/maps/api/staticmap?center=<%= post.location.latitude %>,<%= post.location.longitude %>&zoom=12&size=424x240&markers=color:red%7Clabel:C%7C<%= post.location.latitude %>,<%= post.location.longitude %>&key=<%= KlassroomConfig.GOOGLE_API %>">
+          </div>
+          <div class="timeline_post_url_content" style="padding: 10px;">
+            <div style="margin-bottom:5px"><b><a><%= post.location.name %></a></b></div>
+            <div><%= post.location.address %></div>
+          </div>
+        </div>
+
+      <% } else if(post.checklist){ %>
+        <div class="timeline_post_body_checklist">
+          <p><%= post.checklist.title %></p>
+          <ul>
+          <%
+                       var i = 1;
+                      KRUtils.each(post.checklist.items,function(key, val){ %>
+            <li><span><%= key + 1 %></span><%= val %></li>
+                <% if(!readMoreCache[post.id] && i>5){ %>
+                              <center><a onclick=showMore("<%= post.id %>")><%= $t("Show all {{total}} items",{total:post.checklist.items.length})  %></a></center>
+                              <% return false;} %>
+
+               <% i++;}); %>
+          </ul>
+        </div>
+      <% } else if(post.poll){ %>
+        <div class="timeline_post_body_poll">
+          <p class="body_poll_question"><%= post.poll.question %></p>
+          <% post.poll.votes_total =  Object.keys(post.poll.votes || {}).reduce(function(sum, a){ return sum += post.poll.votes[a]; },0);%>
+          <% if(post.user_poll != 0 || moment().diff(post.poll.ends) > 0 || (post.is_owner && !post.poll.self_participate) || post.klass.is_ghost) {
+                          post.poll.options.forEach(function(poll_option, poll_option_index){ %>
+            <div class="body_poll_result" style="margin-bottom: 10px;cursor:pointer" onclick=unvotePost("<%= post.id %>")>
+              <p>
+                <label style="font-size: 12px;">
+                                      <% if(post.poll.show_results || post.is_owner){ %>
+                  <span style="color: #1f9aff;">
+                    <%= (((((post.poll.votes || {})[poll_option_index + 1] || 0) / post.poll.votes_total) * 100) || 0 ).toFixed(0) %>%
+                    </span>
+<% } %>
+                  <span style="color: black;"><%= poll_option %> <% if(post.user_poll == poll_option_index + 1){ %><i class="ace-icon fa fa-check-circle krBlue"></i><% } %></span>
+                </label>
+              </p>
+<% if(post.poll.show_results || post.is_owner){ %>
+
+              <div class="k-progress-bar">
+                <div class="k-inner-bar" style="width: <%= (((((post.poll.votes || {})[poll_option_index + 1] || 0) / post.poll.votes_total) * 100) || 0 ).toFixed(0) %>%;"></div>
+              </div>
+<% } %>
+            </div>
+          <% }); } else {
+            KRUtils.each(post.poll.options,function(poll_index,poll_option){ %>
+            <div><button class="btn-important small" onclick=votePost("<%= post.id %>",<%= poll_index + 1 %>)><%= poll_option %></button></div>
+          <% }); } %>
+
+          <% if( moment().diff(post.poll.ends) < 0){ %>
+          <p class="body_poll_date"><% $t("the poll ends on {{date}}",{date:  moment(post.poll.ends).format('lll')}) %> </p>
+          <% } else { %>
+          <p class="body_poll_date"><% $t("the poll has ended") %></p>
+          <% } %>
+          <% if(!post.poll.is_anonymous){ %><p class="body_poll_anonymous"><% $t("This poll is NOT anonymous. Teachers will see your answer but not the other parents.") %></p> <% } %>
+          <% if(post.poll.is_anonymous){ %><p class="body_poll_anonymous"><% $t("This poll is anonymous. Nobody will see your answer, not even the teachers.") %></p> <% } %>
+                      <% if(!post.poll.is_anonymous &&  post.is_owner ){ %><center><a class="krBlue" onclick=viewPollResults("<%= post.id %>")><% $t("View Results") %></a></center> <% } %>
+        </div>
+      <% } else if(post.homework){ %>
+        <%=  loadTemplate("tmpl-timeline-post-homework",{post:post}) %>
+      <% } else if(post.videos.length){ %>
+        <% KRUtils.each(post.videos,function(key,val){ %>
+                      <div class="timeline_post_body_video" style=" margin-top: 10px;">
+                          <% if(val.status != RoomClient.RAAttachmentStatus.processing){ %>
+                              <video class="video-js vjs-default-skin" controls preload="auto" height=190 style="width:100%;" poster="<%= val.thumb_url %>" data-setup='{"controls":true}'>
+                                  <source src="<%= val.url %>" type="video/mp4" />
+                              </video>
+                              <% if(room.member.type == RoomClient.RAMemberType.ParentRelative){ %>
+                              <div style="text-align: center;padding-top: 5px;">
+                                  <button class="btn-important small no-expand" onclick=download_post_video("<%= post.id %>")>
+                                      <img src="/k-img/icons/download.svg"/>
+                                      <% $t("Download Video") %>
+                                  </button>
+                              </div>
+                              <% } %>
+                          <% }else{ %>
+                              <div style="position:relative;color:white">
+                                  <div style="position:absolute;color:#DDDDDD;left:25%;top:25%">
+                                      <div style="color:white"><h3><% $t("Processing video...")%></h3></div>
+                                      <div style="color:#DDDDDD;"><% $t("Your video will appear here when finished")%></div>
+                                  </div>
+                                  <img  width=100% height=240 src="/images/videoprocessing.png">
+                              </div>
+                          <% } %>
+                      </div>
+        <% }); %>
+      <% }else if(post.images.length || post.audios.length || post.documents.length) { %>
+
+              <% if(post.images.length){ %>
+
+        <div class="timeline_post_body_photo clearfix" style="position: relative">
+          <% if(_.size(post.images) == 1) { %>
+            <a href="<%= post.images[0].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:0}) %>">
+              <div class="background-cover" data-src='<%= getDefaultKlassCover(post.images[0].thumb_url) %>' style="width:100%;height:340px;background-image:url('/images/classroom.jpg')" ></div>
+            </a>
+          <% }else if(_.size(post.images) == 2) { %>
+            <a href="<%= post.images[0].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:0}) %>">
+              <div class="background-cover pull-left" data-src='<%= getDefaultKlassCover(post.images[0].thumb_url) %>' style="width:49%;height:340px;background-image:url('/images/classroom.jpg')" ></div>
+            </a>
+            <a href="<%= post.images[1].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:1}) %>">
+              <div class="background-cover pull-right" data-src='<%= getDefaultKlassCover(post.images[1].thumb_url) %>' style="width:49%;height:340px;background-image:url('/images/classroom.jpg')" ></div>
+            </a>
+
+          <% }else if(_.size(post.images) >= 3) { %>
+            <div class="pull-left" style="width:49%;height:340px;" >
+              <a href="<%= post.images[0].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:0}) %>">
+                <div class="background-cover" data-src='<%= getDefaultKlassCover(post.images[0].thumb_url) %>' style="width:100%;height:340px;background-image:url('/images/classroom.jpg')" ></div>
+              </a>
+            </div>
+            <div class="pull-right" style="width:49%;height:340px;" >
+              <a href="<%= post.images[1].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:1}) %>">
+                <div class="background-cover" data-src='<%= getDefaultKlassCover(post.images[1].thumb_url) %>' style="width:100%;height:167px;margin-bottom:4px;background-image:url('/images/classroom.jpg')" ></div>
+              </a>
+              <div class="" style="width:100%;height:2px;background:white" ></div>
+              <a href="<%= post.images[2].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>" data-caption="<%= loadTemplate("download-post",{post:post,i:2}) %>">
+                <div class="background-cover" data-src='<%= getDefaultKlassCover(post.images[2].thumb_url) %>' style="position:relative;width:100%;height:167px;background-image: url('/images/classroom.jpg')" >
+                  <% if(_.size(post.images) >3) { %>
+                    <div style="position:absolute;width:100%;height:100%;background:black;opacity:0.6"></div>
+                    <div style="position:absolute;width:100%;height:100%;color:white;font-size:35px;top:25%;left:25%">+<%= _.size(post.images) - 3 %></div>
+                  <% } %>
+                </div>
+              </a>
+            </div>
+          <% } %>
+
+          <% for(i=3;i<post.images.length;i++){%>
+            <a href="<%= post.images[i].url %>"  data-rel="colorbox" class="cboxElement fancybox" data-fancybox="<%= post.id %>"  data-caption="<%= loadTemplate("download-post",{post:post,i:i}) %>"></a>
+          <% } %>
+
+        </div>
+                   <% if(room.member.type == RoomClient.RAMemberType.ParentRelative){ %>
+                       <div style="text-align: center;padding-top: 5px;">
+
+                      <button class="btn-important small no-expand" onclick=download_post_image("<%= post.id %>")>
+                          <img src="/k-img/icons/download.svg"/>
+                          <% $t("Download") %>
+                          <small>( <%= post.images.length %> <% $t("photos") %> )</small>
+                      </button>
+                       </div>
+                      <% } %>
+                  <% } %>
+
+              <% if(post.audios.length){ %>
+                   <% if(post.images.length){ %>
+                      <br>
+                   <% } %>
+        <div class="well well-sm timeline_post_body_album clearfix no-background" style="margin:15px">
+          <%
+                  var i = 1;
+                  KRUtils.each(post.audios,function(key,val){ %>
+                      <div class="media">
+            <div class="media-left" style="vertical-align: middle;">
+              <img class="media-object" src="/krimages/icon_add_audio.png" width=20>
+            </div>
+            <div class="timeline_post_body_audio media-body" style="width:100%">
+              <div><b><%= val.name %></b></div>
+                              <audio  heigth=200 style="width:100%" controls data-id="<%= val.id %>" ><source  src="<%= val.url %>"  <% if(val.getMimeType() != null) { %> type="<%= val.getMimeType() %>" <% } %>></audio>
+
+            </div>
+                      </div>
+                        <% if(room.member.type == RoomClient.RAMemberType.ParentRelative){ %>
+
+                      <div style="text-align: center;">
+                          <button class="btn-important small no-expand" onclick=download_post_audio("<%= post.id %>")>
+                              <img src="/k-img/icons/download.svg"/>
+                              <% $t("Download Audio") %>
+                          </button>
+                      </div>
+                      <% } %>
+                      <% if(!readMoreAudiosCache[post.id] && (((post.documents.length || post.images.length) && i>0) || i>2)){ %>
+                  <% return false;} %>
+
+        <% }); %>
+
+        </div>
+                  <% if(!readMoreAudiosCache[post.id] && (((post.documents.length || post.images.length) && i>1) || i>2)){ %>
+                      <center><a onclick=showMoreAudios("<%= post.id %>")><%=  $t("Show all %total% audios").replace("%total%",post.audios.length)  %></a></center>
+                  <% } %>
+                  <% } %>
+
+      <% if(post.documents.length){ %>
+                  <% if(post.audios.length || post.images.length){ %>
+                      <br>
+                   <% } %>
+        <%
+                  var i = 1;
+                  KRUtils.each(post.documents,function(key,val){ %>
+
+        <div class="well well-sm timeline_post_body_album clearfix no-background" style="margin:15px">
+        <div class="media">
+          <div class="media-left" style="position:relative">
+            <div style="position: absolute;font-size: 8px;font-weight: bold;color: white;top: 8px;left: 6px;text-transform: uppercase;"><%=val.extension %></div>
+            <img class="media-object" src="/images/icon_attach_file.png" width=30>
+          </div>
+          <div class="media-body">
+            <div><a onclick=openFile("<%= val.url %>","<%= post.id %>") target=_blank><h6><%= val.name %></h6></a></div>
+            <div style="opacity: 0.8; font-family: Norms Regular;"><%= filesize(val.size) %></div>
+          </div>
+        </div>
+        </div>
+                  <% if(!readMoreDocsCache[post.id] && (((post.images.length || post.audios.length) && i>1) || i>2)){ %>
+                      <center><a onclick=showMoreDocs("<%= post.id %>")><%= $t("Show all %total% documents").replace("%total%",post.documents.length)  %></a></center>
+                  <% return false;} %>
+
+        <% i++;}); %>
+                  <% } %>
+      <% } else if(post.url){ %>
+        <div class="timeline_post_url" style="margin-top:10px;box-shadow: 0 0 0 1.5px rgba(0, 0, 0, .1) inset, 0 1px 1px rgba(0, 0, 0, .05)">
+          <% if(post.url.image_url){ %>
+          <div class="timeline_post_url_photo">
+            <a href="<%= post.url.from_url %>"  target="_blank"  rel="noreferrer">
+              <img  width="100%" height=240 style="background: url('<%= post.url.image_url %>') no-repeat center center; background-size: cover;">
+            </a>
+          </div>
+          <% }%>
+          <div class="timeline_post_url_content" style="padding: 10px;">
+            <div style="margin-bottom:5px"><b><a href="<%= post.url.from_url %>"  target="_blank"  rel="noreferrer"><%= post.url.title %></a></b></div>
+            <div><%= $.truncate(post.url.description,{length:100}) %></div>
+          </div>
+        </div>
+      <% } %>
+
+
+              <% if(post.require_reply && !post.is_viewed && !post.is_owner && post.klass.member.type == RoomClient.RAMemberType.ParentRelative) { %>
+
+        <div class="k-reply-ticket">
+          <textarea id="reply_<%= post.id %>" placeholder="<% $t("Write a response...") %>"></textarea>
+                      <center><small><p class="body_poll_anonymous krRed"><% $t("Teachers will see your response but not the other parents.") %></p></small></center>
+        </div>
+      <% } %>
+
+              <% if(post.user_text) { %>
+
+        <div class="k-reply-ticket">
+                      <p class="body_poll_anonymous" style="border-left: 2px #b7bcc5 solid;padding: 5px;margin-top: 10px;color:#b7bcc5"><%= post.user_text %></p></small>
+        </div>
+      <% } %>
+    </div>
+
+    <div class="timeline_post_footer clearfix" >
+<% if(post.reactions_count > 0 || post.comments_count > 0) { %>
+
+      <div class="timeline_reaction_details" style="height: 25px;padding: 0 12px 0 12px">
+        <% if(post.reactions_count) { %>
+                      <a onclick=loadReactions("<%= post.id %>")>
+            <% KRUtils.each(post.reactions,function(key,val){ %>
+
+
+            <img src='/krimages/icon_mood_<%= key %>_gif.gif' height=32>
+
+
+
+            <% }); %>
+            <%= post.reactions_count %>
+          </a>
+        <% } %>
+        <% if(post.comments_count){ %>
+          <a style="float: right;" onclick=loadPost("<%= post.id %>")>
+            <img src="/k-img/icons/comments.png" height="12"/>
+            <span style="font-size: 12px; font-family: Norms Regular; opacity: 0.8;">
+              <%= post.comments_count %>
+            </span>
+                      </a>
+        <% } %>
+
+      </div>
+<% } %>
+      <div class="timeline_post_footer_inside toolbar clearfix" style="padding: 12px 12px 12px 12px">
+
+        <div class=pull-right>
+
+          <% if(post.require_signature){ %>
+            <% if(!post.campaignID && (post.klass.is_admin || post.klass.is_owner || post.is_owner) && (post.klass.member.type != RoomClient.RAMemberType.Student && post.klass.member.type != RoomClient.RAMemberType.ParentRelative)){ %>
+                  <a  data-target="#forgot-box" class="forgot-password-link <% if(!post.is_viewed){ %> red <% } %>" onclick=loadViews("<%= post.id %>")>
+                    <span  style="color:#1f9aff;">
+                      <i class="ace-icon fa fa-check-circle"></i>
+                      <% $t("Signed: {{x}}/{{n}}",{x: post.views_count,n:Math.max(post.views_count,_.size(post.klass.active_members))})%>
+                    </span>
+                  </a>
+            <% } else { %>
+              <% if(post.is_viewed){ %>
+                <% if(!post.campaignID && (post.klass.is_admin || post.klass.is_owner || post.is_owner)){ %>
+
+                <a  data-target="#forgot-box" class="forgot-password-link <% if(!post.is_viewed){ %> red <% } %>" onclick=loadViews("<%= post.id %>")>
+                  <i class="ace-icon fa <% if(post.is_viewed){ %> fa-eye <% }else{ %> fa-eye-slash <% } %>"></i>
+                  <% $t("Signed: {{x}}/{{n}}",{x: post.views_count, n: Math.max(post.views_count,_.size(post.klass.active_members))}) %>
+                </a>
+                <% } else { %>
+                  <span  style="color:#1f9aff">
+                    <i class="ace-icon fa fa-check-circle"></i>
+                    <% $t("Signed") %>
+                  </span>
+                <% } %>
+              <% } else { %>
+                <button class="btn-important small no-expand" onclick=signPost("<%= post.id %>")><% $t("Sign") %> </button>
+              <% } %>
+            <% } %>
+
+                      <% } else if(post.require_reply){ %>
+            <% if(!post.campaignID && (post.klass.is_admin || post.klass.is_owner || post.is_owner) && (post.klass.member.type != RoomClient.RAMemberType.Student && post.klass.member.type != RoomClient.RAMemberType.ParentRelative)){ %>
+                  <a  data-target="#forgot-box" class="forgot-password-link <% if(!post.is_viewed){ %> red <% } %>" onclick=loadViews("<%= post.id %>")>
+                    <span  style="color:#1f9aff;">
+                      <i class="ace-icon fa fa-check-circle"></i>
+                      <% $t("Replied {{x}}/{{n}}",{x: post.views_count,n: Math.max(post.views_count,_.size(post.klass.active_members))}) %>
+                    </span>
+                  </a>
+            <% } else { %>
+              <% if(post.is_viewed){ %>
+                <% if(!post.campaignID && (post.klass.is_admin || post.klass.is_owner || post.is_owner)){ %>
+
+                <a  data-target="#forgot-box" class="forgot-password-link <% if(!post.is_viewed){ %> red <% } %>" onclick=loadViews("<%= post.id %>")>
+                  <i class="ace-icon fa <% if(post.is_viewed){ %> fa-eye <% }else{ %> fa-eye-slash <% } %>"></i>
+                  <% $t("Replied {{x}}/{{n}}",{x:post.views_count,n:Math.max(post.views_count,_.size(post.klass.active_members))})%>
+                </a>
+                <% } else { %>
+                  <span  style="color:#1f9aff">
+                    <i class="ace-icon fa fa-check-circle"></i>
+                    <% $t("Replied") %>
+                  </span>
+                <% } %>
+              <% } else { %>
+                <button class="btn-important small no-expand" onclick=send_reply_ticket("<%= post.id %>")><% $t("Reply") %> </button>
+              <% } %>
+            <% } %>
+
+          <% } else { %>
+            <% if(!post.campaignID && (post.klass.is_admin || post.klass.is_owner || post.is_owner)){ %>
+
+          <a  data-target="#forgot-box" class="forgot-password-link <% if(!post.is_viewed){ %> krRed <% }else{  %> krBlue <% } %>" onclick=loadViews("<%= post.id %>")>
+            <img height="13" src="/k-img/icons/<% if(post.is_viewed){ %>eye<% }else{ %>eye-slash<% } %>.png"/>
+            <% $t("{{x}}/{{n}}",{x:post.views_count,n: Math.max(post.views_count,_.size(post.klass.active_members))})%>
+          </a>
+            <% } else { %>
+              <% if(post.is_viewed){ %>
+                <img src="/k-img/icons/eye.png" height="13"/>
+              <% } else { %>
+                <span  class="forgot-password-link red">
+                  <i class="ace-icon fa fa-eye-slash"></i>
+
+                </span>
+              <% } %>
+            <% } %>
+          <% } %>
+
+
+        </div>
+        <div class="pull-left add_mood_options" style="padding-right:13px;" id="add_mood_<%= post.id %>" >
+          <% if(!post.klass.is_closed){ %>
+          <a   onclick=removeReaction("<%= post.id %>") id="remove_mood_<%= post.id %>">
+          <% if(post.user_reaction){ %> <img src='/krimages/icon_mood_<%= post.user_reaction %>.png' height=20>  <% } %>
+          </a>
+                      <% if(!post.user_reaction) { %>
+                      <% if(!room.is_ghost){%>
+
+          <a  onclick=loadReaction("<%= post.id %>")>
+            <img src="/k-img/icons/react.png" height="20">
+            <% $t("React") %>
+          </a>
+                      <% } %>
+                          <% } %>
+          <% }else{ %>
+              <% if(post.user_reaction){ %> <img src='/krimages/icon_mood_<%= post.user_reaction %>.png' height=20>  <% } %>
+          <% } %>
+        </div>
+        <div class=pull-left>
+          <a  data-target="#forgot-box" class="forgot-password-link" onclick=loadPost("<%= post.id %>")>
+            <img src="/k-img/icons/comment.png" height="20">
+            <% $t("Comment")%>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

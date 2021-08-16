@@ -1,0 +1,40 @@
+.parents-list-level {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.parents-list-level__title {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: rgba(46, 59, 80, 0.6);
+  text-align: left;
+  margin-bottom: 20px;
+}
+.parents-list-level__container {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+.parents-list-level__icons {
+  
+}
+.parents-list-level__book {
+  width: 102px;
+  height: 71px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

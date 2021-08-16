@@ -1,0 +1,24 @@
+.list-step2-item {
+  width: 268px;
+  margin-top: 24px;
+  display: inline-block;
+  margin-right: 23px;
+  margin-bottom: 30px;
+}
+.list-step2-item:last-child {
+  margin-right: 0px;
+}
+.column-list__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 48px;
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  padding: 16px 14px;
+}
+.column-list__item:nth-of-type(2n) {
+  background-color: #f9fafc;
+}

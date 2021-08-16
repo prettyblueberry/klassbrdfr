@@ -1,0 +1,181 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.add-class-finish-form {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.add-class-finish-form__h1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+  margin-top: 42px;
+}
+.add-class-finish-form__year {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #1f9aff;
+  margin-bottom: 125px;
+}
+.add-class-finish-form__back-button {
+  position: absolute;
+  left: 55px;
+  top: 55px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2e3b50;
+  cursor: pointer;
+  img {
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
+  }
+}
+.add-class-finish-form__container {
+  text-align: center;
+}
+.add-class-finish-form__classes {
+  display: inline-block;
+  width: 490px;
+}
+.add-class-finish-form__h2 {
+  display: inline-block;
+  width: 490px;
+  text-align: left;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2e3b50;
+}
+.add-class-finish-form__h3 {
+  display: inline-block;
+  width: 490px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.7px;
+  color: #2e3b50;
+  margin: 10px 0;
+  b {
+    color: #1f9aff;
+   }
+}
+.add-class-finish-form__h4 {
+  display: inline-block;
+  width: 490px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.8px;
+  color: rgba(46, 59, 80, 0.6);
+  margin-bottom: 30px;
+}
+.add-class-finish-form__buttons {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 490px;
+  margin-bottom: 116px;
+}
+.add-class-finish-form__or {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 490px;
+  opacity: 0.4;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #2e3b50;
+}
+.add-class-finish-form__or hr {
+  width: 100px;
+  height: 1px;
+  opacity: 0.1;
+  background-color: #2e3b50;
+  margin: 0 10px;
+}
+.add-class-finish-form__unicorn-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.add-class-finish-form__unicorn-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 1100px) { 
+  .add-class-layout {
+    .right {
+      padding: 0 !important;
+    }
+  }
+  .add-class-finish-form__container {
+    margin-bottom: 150px;
+    .small-purple {
+      display: none !important;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .add-class-finish-form__unicorn-right,
+  .add-class-finish-form__unicorn-left {
+    display: none;
+  }
+  .add-class-finish-form__container {
+    margin-bottom: 0;
+  }
+  .add-class-finish-form__or,
+  .add-class-finish-form__classes,
+  .add-class-finish-form__buttons,
+  .class-item-small__students,
+  .class-item-small__count,
+  .class-item-small__counts,
+  .add-class-finish-form__h4,
+  .add-class-finish-form__h3,
+  .add-class-finish-form__h2 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .add-class-finish-form__back-button {
+    left: 22px !important;
+  }
+  .add-class-finish-form {
+    padding: 10px;
+  }
+}

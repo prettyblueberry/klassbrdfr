@@ -1,0 +1,56 @@
+.text-area {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  min-height: 380px;
+  border-radius: 4px;
+  background-color: #f9fafc;
+  padding: 26px 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  position: relative;
+}
+.text-area__input {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
+  color: #2d3954;
+}
+.text-area__label {
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: rgba(#2e3b51, 0.6);
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.text-area__count {
+  color: #1f9aff;
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: right;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}

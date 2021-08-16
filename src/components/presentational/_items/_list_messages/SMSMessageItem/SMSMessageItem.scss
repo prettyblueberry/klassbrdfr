@@ -1,0 +1,168 @@
+.sms-message-item {
+  display: grid;
+  grid-template-columns: 70px auto 100px 100px 100px 50px; 
+  grid-template-rows: 1fr;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 30px;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  .klassicon-sms-campaign {
+    width: 52px;
+    height: 52px;
+    font-size: 26px;
+    color: #ffb53a;
+    background: rgba(#ffb53a, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .sms-message-item__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sms-message-item__description-t1 {
+    padding-right: 20px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.7px;
+    color: #1f9aff;
+    text-align: left;
+  }
+  .sms-message-item__description-t2 {
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: -0.4px;
+    color:rgba(46, 59, 80, 0.6);
+    text-align: left;
+  }
+  .sms-message-item__description-classes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: GalanoGrotesque;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    color: #2e3b50;
+    .klassicon-back {
+      transform: scaleX(-1);
+      color: #1f9aff;
+      font-size: 14px;
+    }
+  }
+  .sms-message-item__statistic {
+
+  }
+  .sms-message-item__statistic-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: GalanoGrotesque;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+  }
+  .sms-message-item__statistic-precent {
+    opacity: 0.6;
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    position: relative;
+    bottom: 3px;
+    left: 4px;
+  }
+  .sms-message-item__statistic-label {
+    opacity: 0.6;
+    font-family: GalanoGrotesque;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: -0.8px;
+    color: #2d3a53;
+    text-align: left;
+
+  }
+}
+.sms-message-item__views {
+  .sms-message-item__statistic-top {
+    color: #ffb53a;
+  }
+}
+.sms-message-item__reactions {
+  .sms-message-item__statistic-top {
+    color: #8f63de;
+  }
+}
+.sms-message-item__comments {
+  .sms-message-item__statistic-top {
+    color: #00b7ce;
+  }
+}
+.sms-message-item_class {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.sms-message-item__header-label-container {
+  position: absolute;
+  top: -9px;
+  width: 100%;
+  text-align: center;
+}
+.sms-message-item__header-label {
+  height: 22px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #8f63de;
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+.sms-message-item__header-label-sms {
+  background-color: #ffb53a;
+}

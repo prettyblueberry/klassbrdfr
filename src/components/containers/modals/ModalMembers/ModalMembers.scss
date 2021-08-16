@@ -1,0 +1,108 @@
+.members-modal__root {
+  max-width: 890px !important;
+  .modal-body {
+    padding: 0;
+  }
+}
+.modal-members {
+  width: 100%;
+  //background: #f9fafc;
+  border-radius: 5px;
+  .modal-content {
+    background: transparent;
+  }
+  .modal-members__body-container {
+    padding: 0 55px;
+  }
+  .modal-members__header_container {
+    padding: 55px 55px 0 55px;
+    position: relative;
+    border-bottom: none;
+  }
+  .modal-members__footer-container {
+    padding: 0 40px 30px 40px;
+    border-top: none;
+  }
+  .modal-members__submit {
+    width: 100%;
+    .icon {
+      position: absolute;
+      right: 15px;
+      top: 9px !important;
+    }
+  }
+  .klassicon-close {
+    font-size: 16px;
+    color: #c0c4ca;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 57px;
+  }
+}
+.modal-members__search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  .search-input {
+    width: 440px;
+  }
+}
+.modal-members__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.modal-members__header-count,
+.modal-members__panel-count {
+  border-radius: 16px;
+  min-width: 40px;
+  background-color: rgba(#1f9aff, 0.2);
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #0a95ff;
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+.modal-members__header-count {
+  background-color: #1f9aff;
+  color: #fff;
+  margin-top: 4px;
+}
+.modal-members__panel-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.modal-members__panel {
+  height: 84px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-members__select-deselect {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #1f9aff;
+  span {
+    display: inline-block;
+    cursor: pointer;
+  }
+}

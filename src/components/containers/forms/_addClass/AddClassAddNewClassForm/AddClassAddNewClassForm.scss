@@ -1,0 +1,117 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.add-new-class-form {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.add-new-class-form__h1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+  margin-top: 42px;
+}
+.add-new-class-form__year {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #1f9aff;
+  margin-bottom: 79px;
+}
+.add-new-class-form__back-button {
+  position: absolute;
+  left: 55px;
+  top: 55px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2e3b50;
+  cursor: pointer;
+  img {
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
+  }
+}
+
+.add-new-class-form__h2 {
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2d3a53;
+}
+.add-new-class-form__h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.7px;
+  color: #2c3856;
+  b {
+    color: #8f5fe2;
+  }
+}
+.add-new-class-form__h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.8px;
+  color: rgba(46, 59, 81, 0.6);
+}
+.add-new-class-form__form {
+  display: inline-block;
+  width: 490px;
+  margin-top: 20px;
+}
+
+.add-new-class-form__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.add-new-class-form__cancel {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+@media (max-width: 1100px) { 
+  .add-new-class-form__buttons {
+    flex-direction: column;
+    button {
+      margin-bottom: 30px !important;
+    }
+  }
+  .add-new-class-form__cancel {
+    width: 100%;
+    margin: 30px 0;
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>class-settings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="Timeline-(≥1200px)" transform="translate(-143.000000, -942.000000)">
+            <g id="Side-Menu" transform="translate(120.000000, 125.000000)">
+                <g id="Sidemenu" transform="translate(0.000000, 49.000000)">
+                    <g id="3" transform="translate(22.000000, 652.000000)">
+                        <g id="Class-settings" transform="translate(1.000000, 116.000000)">
+                            <g id="class-settings" transform="translate(0.000000, 1.000000)">
+                                <g id="Group-3" transform="translate(0.000000, 6.000000)">
+                                    <rect id="Rectangle-Copy" fill="#2E3B50" x="0" y="1.5" width="18" height="2" rx="1"></rect>
+                                    <circle id="Oval-Copy" stroke="#2E3B50" stroke-width="2" fill="#FFFFFF" cx="13" cy="2.5" r="1.75"></circle>
+                                </g>
+                                <g id="Group-3" transform="translate(9.000000, 2.500000) rotate(-180.000000) translate(-9.000000, -2.500000) ">
+                                    <rect id="Rectangle-Copy" fill="#2E3B50" x="0" y="1.5" width="18" height="2" rx="1"></rect>
+                                    <circle id="Oval-Copy" stroke="#2E3B50" stroke-width="2" fill="#FFFFFF" cx="13" cy="2.5" r="1.75"></circle>
+                                </g>
+                                <g id="Group-3" transform="translate(9.000000, 14.500000) rotate(-180.000000) translate(-9.000000, -14.500000) translate(0.000000, 12.000000)">
+                                    <rect id="Rectangle-Copy" fill="#2E3B50" x="0" y="1.5" width="18" height="2" rx="1"></rect>
+                                    <circle id="Oval-Copy" stroke="#2E3B50" stroke-width="2" fill="#FFFFFF" cx="13" cy="2.5" r="1.75"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="353px" height="248px" viewBox="0 0 353 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180.087506" height="49.9359795" rx="2.72727273"></rect>
+        <filter x="-13.6%" y="-47.1%" width="127.2%" height="198.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-3" cx="24.8181818" cy="25" rx="13.9090909" ry="14.010989"></ellipse>
+        <rect id="path-5" x="0" y="0" width="180.087506" height="49.9359795" rx="2.72727273"></rect>
+        <filter x="-13.6%" y="-47.1%" width="127.2%" height="198.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-7" cx="24.8181818" cy="25" rx="13.9090909" ry="14.010989"></ellipse>
+        <rect id="path-9" x="0" y="0" width="299.825175" height="83.1278891" rx="4.54545455"></rect>
+        <filter x="-13.8%" y="-47.5%" width="127.7%" height="199.8%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-11" cx="41.3636364" cy="41.5" rx="23.1818182" ry="23.2582418"></ellipse>
+    </defs>
+    <g id="DASHBOARD-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD---EMPTY" transform="translate(-540.000000, -399.000000)">
+            <g id="Center-Panel" transform="translate(325.000000, 142.000000)">
+                <g id="Empty-Placeholder" transform="translate(165.000000, 257.000000)">
+                    <g id="Illustration" transform="translate(77.000000, 0.000000)">
+                        <circle id="background" fill="#1F9AFF" fill-rule="nonzero" opacity="0.05" cx="150" cy="124" r="124"></circle>
+                        <g id="Group-7-Copy-2" transform="translate(60.000000, 176.000000)">
+                            <g id="Timeline-/-Publications-/-_Resources-/-Base">
+                                <g id="Background">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                            <g id="Group-4" transform="translate(55.090909, 14.835165)" fill="#1F9AFF" fill-rule="nonzero" opacity="0.1">
+                                <rect id="Rectangle" x="0" y="0" width="79.6363636" height="6.59340659"></rect>
+                                <rect id="Rectangle-Copy" x="0" y="13.7362637" width="68.7272727" height="6.59340659"></rect>
+                            </g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Bound" fill="#E8F4FF" xlink:href="#path-3"></use>
+                            <path d="M28.8516543,27.7541838 C28.9356543,27.9227293 28.9274725,28.1234565 28.8276543,28.2843656 C28.7278362,28.4452747 28.5527453,28.5434565 28.3634725,28.5434565 L20.7271089,28.5434565 C20.5307453,28.5434565 20.3491089,28.4381838 20.2525634,28.2669111 C20.156018,28.0950929 20.1581998,27.8856384 20.2596543,27.7170929 L21.896018,24.9898202 C21.9723816,24.8621838 22.0983816,24.7710929 22.244018,24.7383656 C22.3885634,24.7056384 22.5418362,24.7345475 22.6661998,24.8169111 L23.8863816,25.6301838 L25.7561998,23.2934565 C25.8723816,23.1489111 26.0551089,23.0709111 26.2394725,23.0921838 C26.4243816,23.1112747 26.5863816,23.2241838 26.6698362,23.3905475 L28.8516543,27.7541838 Z M23.4543816,23.0889111 C22.8518892,23.0889111 22.3634725,22.6004945 22.3634725,21.998002 C22.3634725,21.3955095 22.8518892,20.9070929 23.4543816,20.9070929 C24.0568741,20.9070929 24.5452907,21.3955095 24.5452907,21.998002 C24.5452907,22.6004945 24.0568741,23.0889111 23.4543816,23.0889111 Z" id="Glyph" fill="#D0EAFF" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                        </g>
+                        <g id="Group-7-Copy-3" transform="translate(60.000000, 23.000000)">
+                            <g id="Timeline-/-Publications-/-_Resources-/-Base">
+                                <g id="Background">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                </g>
+                            </g>
+                            <g id="Group-4" transform="translate(55.090909, 14.835165)" fill="#1F9AFF" fill-rule="nonzero" opacity="0.1">
+                                <rect id="Rectangle" x="0" y="0" width="79.6363636" height="6.59340659"></rect>
+                                <rect id="Rectangle-Copy" x="0" y="13.7362637" width="68.7272727" height="6.59340659"></rect>
+                            </g>
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Bound" fill="#E8F4FF" xlink:href="#path-7"></use>
+                            <path d="M28.8516543,27.7541838 C28.9356543,27.9227293 28.9274725,28.1234565 28.8276543,28.2843656 C28.7278362,28.4452747 28.5527453,28.5434565 28.3634725,28.5434565 L20.7271089,28.5434565 C20.5307453,28.5434565 20.3491089,28.4381838 20.2525634,28.2669111 C20.156018,28.0950929 20.1581998,27.8856384 20.2596543,27.7170929 L21.896018,24.9898202 C21.9723816,24.8621838 22.0983816,24.7710929 22.244018,24.7383656 C22.3885634,24.7056384 22.5418362,24.7345475 22.6661998,24.8169111 L23.8863816,25.6301838 L25.7561998,23.2934565 C25.8723816,23.1489111 26.0551089,23.0709111 26.2394725,23.0921838 C26.4243816,23.1112747 26.5863816,23.2241838 26.6698362,23.3905475 L28.8516543,27.7541838 Z M23.4543816,23.0889111 C22.8518892,23.0889111 22.3634725,22.6004945 22.3634725,21.998002 C22.3634725,21.3955095 22.8518892,20.9070929 23.4543816,20.9070929 C24.0568741,20.9070929 24.5452907,21.3955095 24.5452907,21.998002 C24.5452907,22.6004945 24.0568741,23.0889111 23.4543816,23.0889111 Z" id="Glyph" fill="#D0EAFF" fill-rule="nonzero" mask="url(#mask-8)"></path>
+                        </g>
+                        <g id="Group-7" transform="translate(0.000000, 83.000000)">
+                            <g id="Timeline-/-Publications-/-_Resources-/-Base">
+                                <g id="Background">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                </g>
+                            </g>
+                            <g id="Group-4" transform="translate(91.818182, 24.626374)" fill="#1F9AFF" fill-rule="nonzero" opacity="0.1">
+                                <rect id="Rectangle" x="0" y="0" width="132.727273" height="10.9450549"></rect>
+                                <rect id="Rectangle-Copy" x="0" y="22.8021978" width="114.545455" height="10.9450549"></rect>
+                            </g>
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Bound" fill="#E8F4FF" xlink:href="#path-11"></use>
+                            <path d="M48.0860906,46.0921379 C48.2260906,46.373047 48.2124542,46.7075924 48.0460906,46.9757742 C47.8797269,47.243956 47.5879088,47.4075924 47.2724542,47.4075924 L34.5451815,47.4075924 C34.2179088,47.4075924 33.9151815,47.2321379 33.7542724,46.9466833 C33.5933633,46.6603197 33.5969997,46.3112288 33.7660906,46.0303197 L36.4933633,41.4848651 C36.620636,41.2721379 36.830636,41.1203197 37.0733633,41.0657742 C37.3142724,41.0112288 37.5697269,41.0594106 37.7769997,41.1966833 L39.810636,42.5521379 L42.9269997,38.6575924 C43.120636,38.4166833 43.4251815,38.2866833 43.7324542,38.3221379 C44.040636,38.353956 44.310636,38.5421379 44.4497269,38.8194106 L48.0860906,46.0921379 Z M39.090636,38.3166833 C38.0864819,38.3166833 37.2724542,37.5026556 37.2724542,36.4985015 C37.2724542,35.4943474 38.0864819,34.6803197 39.090636,34.6803197 C40.0947901,34.6803197 40.9088179,35.4943474 40.9088179,36.4985015 C40.9088179,37.5026556 40.0947901,38.3166833 39.090636,38.3166833 Z" id="Glyph" fill="#D0EAFF" fill-rule="nonzero" mask="url(#mask-12)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

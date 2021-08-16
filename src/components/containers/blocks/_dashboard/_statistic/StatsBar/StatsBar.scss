@@ -1,0 +1,53 @@
+.absent-students {
+  padding: 30px 30px 10px 30px;
+  border-radius: 5px;
+  background: #fff;
+}
+.absent-students__values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.absent-students__values-h1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.absent-students__values-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #2e3b50;
+  text-align: left;
+}
+.absent-students__values-right {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: right;
+  color: #2e3b50;
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .absent-students {
+    .absent-students__values-h2 {
+      font-size: 30px;
+    }
+  }
+}

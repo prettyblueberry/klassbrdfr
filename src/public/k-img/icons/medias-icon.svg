@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>medias-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeline-(≥1200px)" transform="translate(-142.000000, -688.000000)" fill="#F9FAFC" stroke="#8F63DE" stroke-width="2">
+            <g id="Side-Menu" transform="translate(120.000000, 125.000000)">
+                <g id="Sidemenu" transform="translate(0.000000, 49.000000)">
+                    <g id="2" transform="translate(22.000000, 398.000000)">
+                        <g id="Medias" transform="translate(0.000000, 116.000000)">
+                            <g id="medias-icon">
+                                <g id="Group-38" transform="translate(4.000000, 0.000000)">
+                                    <path d="M6.45532638,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,14 C1,14.5522847 1.44771525,15 2,15 L16,15 C16.5522847,15 17,14.5522847 17,14 L17,4 L8.50612685,4 L6.45532638,1 Z" id="Rectangle-15"></path>
+                                </g>
+                                <g id="Group-38" transform="translate(0.000000, 4.000000)">
+                                    <path d="M6.45532638,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,14 C1,14.5522847 1.44771525,15 2,15 L16,15 C16.5522847,15 17,14.5522847 17,14 L17,4 L8.50612685,4 L6.45532638,1 Z" id="Rectangle-15"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

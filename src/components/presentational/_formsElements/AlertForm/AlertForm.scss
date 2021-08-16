@@ -1,0 +1,24 @@
+body .alert {
+  padding: 15px 30px 15px 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position: relative;
+  animation: fadein 1s;
+  &.alert-danger {
+    color: white;
+    background: #f15b5b;
+    border-radius: 10px;
+    font-family: GalanoGrotesque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #ebccd1;
+  }
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+  }
+}

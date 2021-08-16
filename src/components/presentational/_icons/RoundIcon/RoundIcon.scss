@@ -1,0 +1,15 @@
+.round-icon-large {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+  font-size: 50px;
+  .icon {
+    position: relative;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,114 @@
+.select-input {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  border: solid 1px #2e3b501a;
+  background-color: #fff;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 18px;
+  cursor: pointer;
+  outline: none;
+  &:focus {
+    box-shadow: 0 2px 4px rgba(30, 30, 100, 0.25);
+    .select-input__list {
+      box-shadow: 0 2px 4px rgba(30, 30, 100, 0.25);
+    }
+  }
+  &:hover {
+    opacity: 0.8
+  }
+  &.select-input--showing {
+    &:hover {
+      opacity: 1;
+    }
+    .select-input__list {
+      display: block;
+      width: calc( 100% + 2px );
+      max-height: 202px;
+      overflow-y: auto;
+      position: absolute;
+      left: -1px;
+      top: 58px;
+      border-radius: 4px;
+      border: solid 1px #2e3b501a;
+      background-color: #fff;
+      z-index: 11;
+      margin-top: 10px;
+    }
+    .select-input__arrow {
+      transform: scaleY(-1);
+    }
+  }
+}
+.select-input__label {
+  width: 46px;
+  height: 16px;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #2d3a52
+}
+.select-input__value {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
+  color: #1f9aff;
+}
+.select-input__arrow {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.select-input__list {
+  display: none;
+}
+.select-input__list-item {
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  &:nth-last-of-type(2n) {
+    background: #f9fafc;
+  }
+  &:hover {
+    background: rgba(31, 154, 255, 0.3);
+  }
+}
+.select-input__list-item:active {
+  outline: none;
+}
+.select-input__list-item.focused {
+  background: #d4d5d6;
+  outline: none;
+}
+.select-input__list-item.selected{
+  background: rgba(31, 154, 255, 0.3);
+  color: #1f9aff;
+}
+.select-input__hr {
+  height: 1px;
+  margin: 0 auto;
+  border: none;
+  width: 80%;
+  background: #a8a9aa;
+}
+.select-input__placeholder {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
+  color: rgba(#2d3954, 0.6);
+}

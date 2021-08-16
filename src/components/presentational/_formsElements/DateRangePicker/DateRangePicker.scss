@@ -1,0 +1,53 @@
+.date-range-picker {
+  position: relative;
+  display: inline-flex;
+  margin-right: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+.date-range-picker__label {
+  opacity: 0.6;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #2d3a52;
+}
+.date-range-picker__result {
+  display: inline-flex;
+  padding: 0 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border: solid 1px #2e3b501a;
+  background-color: #fff;
+  height: 38px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.date-range-picker__dates {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  z-index: 100;
+  border: solid 1px #2e3b501a;
+  box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+}
+.date-range-picker__buttons {
+  background: #fff;
+  width: 100%;
+  padding: 10px 0;
+  border-top: solid 1px #eff2f7;
+  display: none;
+  button {
+    width: 200px;
+    background-color: #1f9aff;
+    color: #fff;
+    border-radius: 100px;
+    padding: 0 20px;
+    height: 32px;
+  }
+}

@@ -1,0 +1,115 @@
+.multimedia-statistic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.multimedia-statistic__left {
+
+}
+.multimedia-statistic__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.multimedia-statistic__block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.multimedia-statistic__block:last-child {
+  margin-right: 0;
+}
+.multimedia-statistic__left-label {
+  width: 215px;
+  height: 19px;
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.multimedia-statistic__left-count {
+  width: 28px;
+  height: 70px;
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #2e3b50;
+}
+.multimedia-statistic__s1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
+.multimedia-statistic__s2 {
+  font-family: GalanoGrotesque;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.9px;
+  text-align: left;
+}
+.multimedia-statistic__s3 {
+  width: 70px;
+  height: 16px;
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: -0.8px;
+  color: #2d3a53;
+  text-align: left;
+}
+.multimedia-statistic__views {
+  .multimedia-statistic__s1,
+  .multimedia-statistic__s2
+  {
+    color: #ffb53a;
+  }
+}
+.multimedia-statistic__signature {
+  .multimedia-statistic__s1,
+  .multimedia-statistic__s2
+  {
+    color: #f15b5b
+  }
+}
+.multimedia-statistic__comments {
+  .multimedia-statistic__s1,
+  .multimedia-statistic__s2
+  {
+    color: #00b7ce
+  }
+}
+.multimedia-statistic__reactions {
+  .multimedia-statistic__s1,
+  .multimedia-statistic__s2
+  {
+    color: #8f63de
+  }
+}

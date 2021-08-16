@@ -1,0 +1,123 @@
+.import-parents-manual-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  .import-parents-manual-form__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    width: 100%;
+  }
+  .import-parents-manual-form__close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    color: #c0c4ca;
+    font-size: 20px;
+  }
+  .import-parents-manual-form__h1 {
+    font-family: GalanoGrotesque;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #2d3a52;
+  }
+  .import-parents-manual-form__h2 {
+    font-size: 14px;
+  }
+  .import-parents-manual-form__h3 {
+    margin-bottom: 20px;
+  }
+  .import-parents-manual-form__h4 {
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    font-size: 16px;
+  }
+  .import-parents-manual-form__h2,
+  .import-parents-manual-form__h3,
+  .import-parents-manual-form__h4 {
+    text-align: left;
+  }
+}
+.import-parents-manual-form__status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+.import-parents-manual-form__count-members {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: GalanoGrotesque;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: rgba(#2e3b51, 0.6);
+  height: 100%;
+}
+.import-parents-manual-form__count-members__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
+  color: #2d3954;
+}
+.import-parents-manual-form__container {
+  //width: 512px;
+}
+.import-parents-manual-form .import-parents-manual-form__submit {
+  width: 100%;
+  margin-top: 30px;
+  .icon {
+    position: absolute;
+    right: 15px;
+    top: 9px !important;
+  }
+}
+.import-parents-manual-form-check {
+  color: rgba(46, 59, 80, 0.3);
+  border: solid 1px rgba(46, 59, 80, 0.3);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .import-parents-manual-form__container {
+    width: 280px;
+    .form-input-text2__input,
+    .form-input-text2__input-container,
+    .form-input-text2 {
+      width: 100%;
+    }
+  }
+  .sms-info-broadcasting__message-body__h3 {
+    width: 100% !important;
+  }
+  .csv_step-1-form__container {
+    width: 100% !important;
+  }
+  .file-input__input-container>div {
+    width: 100px;
+  }
+  .csv_step-2-form__container {
+    width: 100% !important;
+  }
+  .csv_step-3-form__container {
+    width: 100% !important;
+  }
+}

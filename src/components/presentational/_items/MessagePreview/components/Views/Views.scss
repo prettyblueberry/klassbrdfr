@@ -1,0 +1,45 @@
+.views-container {
+  position: relative;
+  height: calc(100% - 68px);
+
+    &__loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+    }
+
+    h2 {
+      font-size: 13px;
+      background: #dddddd;
+      padding: 5px;
+    }
+
+
+  .react-tabs__simple-tabs {
+    width: 50%;
+    margin: 15px auto;
+
+    @media(max-width: 500px) {
+      width: 90%;
+    }
+  }
+
+  &__user-list {
+    margin-top: 25px;
+  }
+
+  &__empty {
+    margin-top: 25%;
+  }
+}
+
+//Overrides
+
+.views-container__user-list .relative-user {
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 5px;
+}

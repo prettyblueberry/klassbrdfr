@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Puce</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="21.875%" x2="100%" y2="78.125%" id="linearGradient-1">
+            <stop stop-color="#EFF2F7" offset="0%"></stop>
+            <stop stop-color="#C7D2E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.1603485%" y1="65.7721682%" x2="23.641308%" y2="33.9182179%" id="linearGradient-2">
+            <stop stop-color="#E2E6ED" offset="0%"></stop>
+            <stop stop-color="#B3BCCC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PROFILE-&amp;-SETTINGS-✅-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PROFILE---3.BUY-SMS-CREDITS---RESUME-ORDER" transform="translate(-567.000000, -890.000000)">
+            <g id="Center-Panel" transform="translate(308.000000, 162.000000)">
+                <g id="Billing-informations" transform="translate(0.000000, 489.000000)">
+                    <g id="Active-account" transform="translate(237.000000, 211.000000)">
+                        <g id="Puce" transform="translate(22.000000, 28.000000)">
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="40" height="30" rx="3"></rect>
+                            <path d="M30,24 L10,24 L10,30 L9,30 L9,24 L0,24 L0,23 L9,23 L9,18 L0,18 L0,17 L9,17 L9,13 L0,13 L0,12 L9,12 L9,7 L0,7 L0,6 L9,6 L9,0 L10,0 L10,6 L30,6 L30,0 L31,0 L31,6 L40,6 L40,7 L31,7 L31,12 L40,12 L40,13 L31,13 L31,17 L40,17 L40,18 L31,18 L31,23 L40,23 L40,24 L31,24 L31,30 L30,30 L30,24 Z M30,23 L30,7 L10,7 L10,23 L30,23 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

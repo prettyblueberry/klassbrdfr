@@ -1,0 +1,302 @@
+.billing-Information {
+  max-width: unset;
+  position: relative;
+}
+.choose-package-packages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.billing-Information__h1 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: rgba(#2e3b50, 0.6);
+}
+.billing-Information__h2 {
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #2c3856;
+}
+
+
+.billing-Information__more {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #1f9aff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.billing-Information .billing-Information__submit {
+  width: 100%;
+  margin-bottom: 84px;
+  .icon {
+    position: absolute;
+    right: 15px;
+    top: 9px !important;
+  }
+}
+.billing-Information__secure-block {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(#1f9aff, 0.1);
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.billing-Information__secure {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: -0.6px;
+  color: rgba(#2e3b50, 0.6);
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #1f9aff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
+.billing-Information__btn {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.billing-Information__btn-cost {
+  display: inline-block;
+  position: absolute;
+  right: 73px;
+  top: 16px;
+  z-index: 100;
+  font-size: 18px;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #fff;
+  opacity: 0.5;
+}
+.billing-Information__your-package {
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.billing-Information__your-package {
+  display: grid;
+  grid-template-columns: auto 250px;
+  grid-template-rows: 1fr;
+  background: #fff;
+  margin-bottom: 30px;
+}
+.billing-Information__your-package-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.billing-Information__your-package-right {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: rgba(#1f9aff, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.billing-Information__h3 {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: rgba(#2e3b50, 0.6);
+}
+.billing-Information__h4 {
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+}
+.billing-Information__your-package-credits {
+  width: 206px;
+  height: 114px;
+  border-radius: 4px;
+  background-color: rgba(#ffb53a, 0.1);
+  color: #ffb53a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.billing-Information__your-package-credits-h1 {
+  font-family: GalanoGrotesque;
+  font-size: 35px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.03;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #ffb53a;
+}
+.billing-Information__your-package-credits-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: rgba(#ffb53a, 0.6);
+}
+.billing-Information__link {
+  display: inline-block;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #1f9aff !important;
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+
+.billing-Information__h5 {
+  font-family: GalanoGrotesque;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #2e3b50;
+}
+.billing-Information__cost {
+  font-family: GalanoGrotesque;
+  font-size: 35px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #1f9aff;
+}
+.billing-Information__cards {
+  padding: 50px;
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 50px;
+
+}
+.billing-Information__cards-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.billing-Information__cards_h1 {
+  display: inline-block;
+  width: 220px;
+}
+.billing-Information__add-account {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #1f9aff !important;
+  cursor: pointer; 
+}
+.billing-Information__cards-h3 {
+  margin-bottom: 30px;
+}
+.billing-Information__cards-h2 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+}
+.billing-Information__cards-h3 {
+  font-family: GalanoGrotesque;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #2c3856;
+}
+.billing-Information__back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}

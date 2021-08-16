@@ -1,0 +1,243 @@
+.country-phone-input 
+{
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 5px;
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group p {
+    margin-bottom: 0;
+    padding-left: 5px;
+    font-family: GalanoGrotesque;
+    position: relative;
+    top: 7px;
+  }
+
+  .intl-tel-input {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(46, 59, 80, 0.2);
+    border-radius: 22px !important;
+    background: #fff;
+  }
+  .intl-tel-input.allow-dropdown .flag-container,
+  .intl-tel-input.separate-dial-code .flag-container {
+    right: auto;
+    left: 0;
+  }
+  .intl-tel-input .flag-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+  }
+  .intl-tel-input .selected-flag {
+    z-index: 1;
+    position: relative;
+    width: 36px;
+    height: 100%;
+    padding: 0 0 0 8px;
+  }
+  .intl-tel-input.allow-dropdown .selected-flag,
+  .intl-tel-input.separate-dial-code .selected-flag {
+    width: 46px;
+  }
+  .iti-flag.es {
+    height: 14px;
+    background-position: -1555px 0px;
+  }
+  .intl-tel-input .selected-flag .iti-flag {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .intl-tel-input .selected-flag .iti-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 6px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #555;
+    &.up {
+      border-top: none;
+      border-bottom: 4px solid #555;
+    }
+  }
+  .intl-tel-input .country-list.dropup {
+    bottom: 100%;
+    margin-bottom: -1px;
+  }
+  .intl-tel-input .country-list .country {
+    padding: 5px 10px;
+  }
+  .intl-tel-input .country-list .flag-box,
+  .intl-tel-input .country-list .country-name,
+  .intl-tel-input .country-list .dial-code {
+    vertical-align: middle;
+  }
+  .intl-tel-input .country-list .flag-box,
+  .intl-tel-input .country-list .country-name {
+    margin-right: 6px;
+  }
+  .intl-tel-input .country-list .flag-box {
+    display: inline-block;
+    width: 20px;
+  }
+  .intl-tel-input .country-list .country .dial-code {
+    color: #999;
+  }
+  
+  .iti-flag.us {
+    height: 11px;
+    background-position: -5241px 0px;
+  }
+  .intl-tel-input .country-list {
+    position: absolute;
+    width: auto;
+    display: inline-block;
+    z-index: 2;
+    max-height: 200px;
+    top: 45px;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    overflow-y: scroll;
+    z-index: 100;
+  }
+  .intl-tel-input .country-list.dropup {
+    bottom: 100%;
+    margin-bottom: -1px;
+  }
+  .country-phone-input .country {
+    padding: 5px 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+  .intl-tel-input .country-list .flag-box,
+  .intl-tel-input .country-list .country-name {
+    margin-right: 6px;
+  }
+  .iti-flag {
+    box-shadow: 0px 0px 1px 0px #888;
+    background-image: url(/public/img/flags.png);
+    background-repeat: no-repeat;
+    background-color: #DBDBDB;
+  }
+  .intl-tel-input .country-list .flag-box,
+  .intl-tel-input .country-list .country-name {
+    margin-right: 6px;
+  }
+  .intl-tel-input .country-list .country .dial-code {
+    color: #999;
+  }
+  .intl-tel-input.allow-dropdown .flag-container:hover {
+    cursor: pointer;
+  }
+  .intl-tel-input.allow-dropdown .flag-container .selected-flag:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .hide {
+    display: none!important;
+  }
+  .country-phone-input_input {
+    box-sizing: border-box;
+    height: 44px;
+    width: calc(100% - 52px);
+    color: #2d3954;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: inherit;
+    -webkit-box-shadow: none !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    outline: 0;
+    padding: 0 6px 0 0px;
+    margin-left: 52px;
+    &::placeholder {
+      color: #a5a5a5;
+    }
+  }
+  .iti-flag.us {
+    height: 11px;
+    background-position: -5241px 0px;
+  }
+  .iti-flag.fr {
+    height: 14px;
+    background-position: -1731px 0px;
+  }
+  .flag-container {
+    width: 100%;
+  }
+}
+
+
+.country-phone-input__theme-gray {
+  border-radius: 4px;
+  background-color: #f9fafc;
+  padding-top: 0px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  height: 61px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  .block {
+    width: 100%;
+  }
+  .form-group label {
+    position: relative;
+    top: 10px;
+    color: #2d3954;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+  .intl-tel-input {
+    border: none !important;
+    border-radius: none !important;
+    background: transparent !important;
+  }
+}
+
+/* Mobile Adaptive */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-mobile .iti-flag {
+    background-image: url("/public/img/flags@2x.png");
+  }
+}
+
+.iti-mobile {
+  .intl-tel-input.iti-container {
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    position: fixed;
+  }
+}

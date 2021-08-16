@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TIMELINE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeline-(≥992px)" transform="translate(-167.000000, -31.000000)" stroke="#FFFFFF">
+            <g id="Nav">
+                <g id="mes-classes" transform="translate(168.000000, 31.000000)">
+                    <g id="icon">
+                        <path d="M3.75,8.25729977 L19.25,8.26910211 L19.25,0.75 L3.75,0.75 L3.75,8.25729977 Z" id="Rectangle-5" stroke-width="1.5"></path>
+                        <rect id="Rectangle" stroke-width="2" x="7" y="4" width="9" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle-Copy" stroke-width="2" x="7" y="7" width="9" height="1" rx="0.5"></rect>
+                        <circle id="Oval" stroke-width="1.5" cx="11.5" cy="13.5" r="2.5"></circle>
+                        <circle id="Oval-Copy" stroke-width="1.5" cx="19.5" cy="13.5" r="2.5"></circle>
+                        <circle id="Oval-Copy-2" stroke-width="1.5" cx="3.5" cy="13.5" r="2.5"></circle>
+                        <path d="M7,19.5 C7,17.5670034 5.43299662,16 3.5,16 C1.56700338,16 0,17.5670034 0,19.5" id="Oval-Copy-2" stroke-width="1.5"></path>
+                        <path d="M15,19.5 C15,17.5670034 13.4329966,16 11.5,16 C9.56700338,16 8,17.5670034 8,19.5" id="Oval-Copy-3" stroke-width="1.5"></path>
+                        <path d="M23,19.5 C23,17.5670034 21.4329966,16 19.5,16 C17.5670034,16 16,17.5670034 16,19.5" id="Oval-Copy-4" stroke-width="1.5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

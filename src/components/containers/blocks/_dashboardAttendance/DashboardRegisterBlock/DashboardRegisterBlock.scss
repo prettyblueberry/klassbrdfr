@@ -1,0 +1,128 @@
+.dashboard-attendance-register-block {
+  box-sizing: border-box;
+  margin-bottom: 200px;
+  text-align: center;
+  padding: 50px 100px;
+  width: 100%;
+}
+.dashboard-attendance-register-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.dashboard-attendance-register-block__header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .icon {
+    color: #1f9aff;
+    font-size: 35px;
+  }
+}
+.dashboard-attendance-register-block__header-img {
+  width: 26px;
+  height: auto;
+}
+.dashboard-attendance-register-block__header-title {
+  color: #2e3b50;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.9px;
+  margin-left: 12px;
+}
+
+
+.dashboard-attendance-register-block__epmty {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+.dashboard-attendance-register-block__epmty-img {
+  margin-bottom: 30px;
+}
+.dashboard-attendance-register-block__epmty-title {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  margin-bottom: 5px;
+  b {
+    color: #1f9aff;
+  }
+}
+.dashboard-attendance-register-block__epmty-desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #2e3b50;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.dashboard-attendance-register-block__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -1px;
+  color: #2b345c;
+}
+.dashboard-attendance-register-block__header-count {
+  font-family: GalanoGrotesque;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.11px;
+  text-align: center;
+  color: #1f9aff;
+  background: rgba( #1f9aff, 0.2);
+  border-radius: 16px;
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+.dashboard-attendance-register-block__header {
+  margin: 30px 0;
+}
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .dashboard-attendance-register-block {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .dashboard-attendance-register-block {
+    display: table !important;
+    width: 1224px !important;
+    min-width: 1224px !important;
+    padding-left: 510px !important;
+    padding-right: 30px !important;
+    margin-bottom: 0;
+    height: auto !important;
+    margin-bottom: 0 !important;
+  }  
+}

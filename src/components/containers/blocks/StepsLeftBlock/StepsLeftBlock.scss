@@ -1,0 +1,232 @@
+$font-medium: 'GalanoGrotesque';
+
+$color-background: #ffffff;
+$color-text-light: #ffffff;
+$color-dark-grey-blue: #2e3b50;
+$color-clear-blue: #1f9aff;
+$color-butterscotch: #ffb53a;
+$color-coral: #f15b5b;
+$color-purple: #8f63de;
+$color-page: #f9fafc;
+$color-turquoise-blue: #00b7ce;
+
+.steps-left-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  .steps-left-block__item {
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    &.active {
+      box-shadow: 0 2px 10px 0 rgba(31, 154, 255, 0.03);
+      background-color: rgba(31, 154, 255, 0.1);
+    }
+    &.active .steps-left-block__step{
+      color: $color-clear-blue;
+      font-weight: 600;
+      margin-top: 17px;
+    }
+    &.active .steps-left-block__checked {
+      opacity: 0;
+    }
+    &.active .steps-left-block__oval {
+      background-color: $color-clear-blue;
+      color: $color-text-light;
+    }
+    &.inactive {
+      background-color: transparent;
+    }
+    &.inactive .steps-left-block__step{
+      color: $color-dark-grey-blue;
+      opacity: 0.6;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+    &.inactive .steps-left-block__checked {
+      opacity: 0;
+    }
+    &.inactive .steps-left-block__oval {
+      background-color: rgba(46, 59, 80, 0.1);
+      color: $color-dark-grey-blue;
+    }
+    &.done {
+
+    }
+    &.done .steps-left-block__step{
+      color: $color-clear-blue;
+      font-weight: 500;
+      margin-top: 17px;
+    }
+    &.done .steps-left-block__checked {
+      opacity: 1;
+    }
+    &.done .steps-left-block__oval {
+      background-color: $color-clear-blue;
+      color: $color-text-light;
+    }
+  }
+
+  .steps-left-block__step {
+    width: 181px;
+    height: 16px;
+    font-family: $font-medium;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.7px;
+    margin-left: 10px;
+  }
+
+  .steps-left-block__checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-text-light;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: $color-clear-blue;
+    margin-right: 17px;
+    align-self: center;
+  }
+  .steps-left-block__sign {
+    font-size: 10px;
+  }
+
+  .steps-left-block__oval {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    font-family: $font-medium;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    margin-left: 14px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-left-block__create-account {
+    width: 265px;
+    height: 30px;
+    font-family: $font-medium;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    text-align: center;
+    color: $color-dark-grey-blue;
+    margin-bottom: 42px;
+    b {
+      color: $color-butterscotch;
+    }
+  }
+
+  .steps-left-block__text {
+    color: $color-dark-grey-blue;
+  }
+
+  .steps-left-block__wellcome {
+    width: 265px;
+    height: 18px;
+    opacity: 0.6;
+    font-family: $font-medium;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: $color-dark-grey-blue;
+    margin-top: 84px;
+  }
+
+  .steps-left-block__image {
+    width: 100%;
+  }
+  .steps-left-block__photo {
+    position: absolute;
+    top: 180px;
+    z-index: 10;
+  }
+  .photo-component__photo {
+    width: 80px;
+    height: 80px;
+  }
+  .photo-component--empty .photo-component__photo-img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+  }
+  .popup-menu {
+    bottom: -30px;
+  }
+  .steps-left-block__check-sign {
+    font-size: 10px;
+  }
+  .steps-left-block__photo-container {
+    position: relative;
+    top: 10px;
+    right: calc( 50% - 52px);
+  }
+}
+@media (max-width: 1100px) {
+  .two-grid-layout.add-school__two_grid_layout,
+  .two-grid-layout.signup__two_grid_layout {
+    .steps-left-block .photo-component--empty .photo-component__photo-img  {
+      width: 50px;
+    }
+    .steps-left-block .photo-component__photo {
+      width: 50px;
+      height: 50px;
+    }
+    .steps-left-block__photo {
+      position: relative;
+      left: 10px;
+      top: unset;
+    }
+    .left {
+      display: flex;
+      width: 80px;
+      background: transparent;
+      z-index: 100;
+      position: relative;
+      overflow: visible !important;
+    }
+    .steps-left-block .steps-left-block__item.active {
+      background-color: transparent;
+    }
+    .steps-left-block {
+      position: absolute;
+      left: 0;
+      width: auto;
+      top: 100px;
+      .steps-left-block__checked,
+      .steps-left-block__step,
+      .steps-left-block__create-account,
+      .steps-left-block__wellcome,
+      .steps-left-block__image {
+        display: none;
+      }
+    }
+    .steps-left-block__item {
+      width: auto !important;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.new-sms-message-form {
+  margin-top: 50px;
+  width: 100%;
+  max-width: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .current-year {
+    margin-left: 0px;
+  }
+  .form-block__actions {
+    text-align: left;
+  }
+}
+.new-sms-message-form__header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-sms-message-icon1 {
+  margin: 30px 0 10px 0;
+}
+
+.form-block {
+  border-radius: 5px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  .header-text {
+    text-align: left;
+  }
+  .header-text-small {
+    text-align: left;
+  }
+}
+.new-sms-message__to_h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.new-sms-message__h1 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.new-sms-message-icon-checker {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: rgba(#2e3b50, 0.3);
+  border: solid 1px rgba(46, 59, 80, 0.3);
+}
+.new-sms-message-icon-checker--valid {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.new-sms-message-form__next {
+  display: none !important;
+  margin: 30px 0 !important;
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .new-sms-message-form  {
+    .new-sms-message-form__next {
+      display: block !important;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .new-sms-message-form  {
+    .new-sms-message-form__next {
+      display: block !important;
+    }
+  }
+  .messages-layout .messages-layout__body {
+    width: 1024px !important;
+  }
+}

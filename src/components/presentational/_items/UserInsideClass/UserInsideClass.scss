@@ -1,0 +1,28 @@
+.user-inside-class-item {
+  min-height: 63px;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+// .user-inside-class-item:first-of-type {
+//   border-top: 1px solid #ddd;
+// }
+.user-inside-class-item__icon {
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  img {
+    width: 50px;
+    background-size: cover;
+  }
+}

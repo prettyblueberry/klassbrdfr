@@ -1,0 +1,111 @@
+.publications-shared {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background: #fff;
+  padding: 30px;
+}
+.publications-shared__top-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.publications-shared__body {
+  width: 100%;
+}
+.publications-shared__body-chart {
+  border-radius: 5px;
+}
+.publications-shared-h1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.publications-shared-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -1.8px;
+  color: #2e3b50;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.publications-shared__marker-h1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.publications-shared__marker-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: -1px;
+  text-align: left;
+  padding-left: 15px;
+  color: #2e3b50;
+}
+.publications-shared__markers {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-top: 10px;
+}
+.publications-shared__marker--medias {
+  .publications-shared__marker-h2,
+  span {
+    color: #ffb53a;
+  }
+}
+.publications-shared__marker--messages {
+  span {
+    color: #8f63de;
+  }
+}
+.publications-shared__marker--documents {
+  span {
+    color: #00b7ce;
+  }
+}
+.publications-shared__marker--events {
+  span {
+    color: #f15b5b;
+  }
+}
+.publications-shared__marker--poll {
+  span {
+    color: #8b572a;
+  }
+}
+.publications-shared__marker {
+  margin-right: 30px;
+  span {
+    font-size: 26px;
+  }
+}
+.publications-shared__marker-h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

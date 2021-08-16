@@ -1,0 +1,65 @@
+.school-information-form__container {
+  padding: 50px 30px 0 30px;
+  display: inline-table;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
+}
+.school-information-form {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  .photo-component {
+    //width: 200px;
+  }
+  form {
+    width: 100%;
+    max-width: 900px;
+  }
+}
+.photo-component__photo {
+  height: 80px;
+  width: 80px;
+}
+.photo-component--empty .photo-component__photo-img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+.school-information-form__header {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  //margin-top: 50px;
+}
+.school-information-form__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 26px;
+}
+.school-information-form__cancel {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.school-information-form__photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1440px)  {
+  .school-information-form {
+    width: 960px;
+  }
+}

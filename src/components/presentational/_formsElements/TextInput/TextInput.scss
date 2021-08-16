@@ -1,0 +1,34 @@
+.text-input {
+  font-family: GalanoGrotesque;
+  .k-input {
+    border-radius: 22px !important;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid rgba(46, 59, 80, 0.2);
+    padding: 5px 4px 6px;
+    font-size: 14px;
+    font-family: inherit;
+    -webkit-box-shadow: none !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    height: 44px;
+    outline: 0;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .input-link {
+    float: right;
+    color: #337ab7;
+    text-decoration: none;
+  }
+}

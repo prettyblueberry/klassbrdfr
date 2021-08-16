@@ -1,0 +1,125 @@
+
+.detail-multimedia-message {
+  padding: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position:relative;
+  .klassicon-options {
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+.detail-multimedia-message__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detail-multimedia-message__header-h1 {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+  margin-bottom: 50px;
+  word-break: break-word;
+}
+.detail-multimedia-message__preview{
+  margin: auto;
+  .message-preview{
+    width: 450px;
+  }
+}
+.detail-multimedia-message__header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.detail-multimedia-message__header2-icon {
+  width: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 20px;
+  .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    color: #8f63de;
+    background: rgba(#8f63de, 0.1);
+    font-size: 25px;
+    border-radius: 100%;
+  }
+}
+.detail-multimedia-message__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.detail-multimedia-message__header-h2 {
+  font-family: GalanoGrotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -0.8px;
+  color: #2d3a53;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  word-break: break-word;
+
+  div{
+    margin-left: 10px;
+  }
+}
+.detail-multimedia-message__date {
+  opacity: 0.6;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #2c3856;
+}
+.detail-multimedia-message__classes {
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  .icon {
+    transform: scaleX(-1);
+    color: #1f9aff;
+    display: inline-block;
+  }
+}
+.detail-multimedia-message__loader {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

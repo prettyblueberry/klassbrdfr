@@ -1,0 +1,20 @@
+.edit-class__form {
+  width: 100% !important;
+  max-width: unset;
+}
+.edit-class__form__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+}
+.edit-class__form__cancel {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}

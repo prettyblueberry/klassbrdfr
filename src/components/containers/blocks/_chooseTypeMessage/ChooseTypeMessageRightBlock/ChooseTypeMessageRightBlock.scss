@@ -1,0 +1,17 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.choose-type-message-right {
+  min-height: 832px;
+}
+
+.choose-type-message-right__unicorn-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.choose-type-message-right__unicorn-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

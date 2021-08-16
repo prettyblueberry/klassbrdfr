@@ -1,0 +1,77 @@
+.geo-input {
+  .geosuggest {
+    position: relative;
+  }
+  .geosuggest__input {
+    width: 100%;
+    height: 60px !important;
+    border-radius: 4px;
+    background-color: #f9fafc;
+    padding-top: 0px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: none;
+    font-family: GalanoGrotesque;
+    color: #2d3954;
+    outline: none;
+    &:focus::placeholder {
+      top: -18px;
+    }
+    &::placeholder {
+      opacity: 0.6;
+      font-family: "GalanoGrotesque";
+      font-size: 12px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.4px;
+      color: #2d3954;
+      position: relative;
+      top: -8px;
+      transition: all 0.3s ease 0s;
+    }
+  }
+  .geosuggest__suggests-wrapper {
+
+  }
+  .geosuggest__suggests {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 4px;
+    border: solid 1px #2e3b501a;
+    background-color: #fff;
+    margin-bottom: 20px;
+    max-height: 25em;
+    transition: max-height 0.2s, border 0.2s;
+  }
+  .geosuggest__item--active {
+    background: #d4d5d6 !important;
+  }
+  .geosuggest__suggests--hidden {
+    //display: none;
+    max-height: 0;
+    overflow: hidden;
+    border-width: 0;
+  }
+  .geosuggest__item {
+    cursor: pointer;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: GalanoGrotesque;
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 40px;
+    &:hover {
+      background: rgba(31, 154, 255, 0.3) !important;
+    }
+    &:nth-last-of-type(2n) {
+      background: #f9fafc;
+    }
+  }
+}

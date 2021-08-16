@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "klassicon";
+  src:url("fonts/klassicon.eot");
+  src:url("fonts/klassicon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/klassicon.woff") format("woff"),
+    url("fonts/klassicon.ttf") format("truetype"),
+    url("fonts/klassicon.svg#klassicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "klassicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="klassicon-"]:before,
+[class*=" klassicon-"]:before {
+  font-family: "klassicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.klassicon-add:before {
+  content: "\61";
+}
+.klassicon-add-comment:before {
+  content: "\62";
+}
+.klassicon-delay:before {
+  content: "\63";
+}
+.klassicon-dashboard:before {
+  content: "\64";
+}
+.klassicon-my-school:before {
+  content: "\65";
+}
+.klassicon-options:before {
+  content: "\66";
+}
+.klassicon-views:before {
+  content: "\67";
+}
+.klassicon-views-hide:before {
+  content: "\68";
+}
+.klassicon-waiting:before {
+  content: "\69";
+}
+.klassicon-parents:before {
+  content: "\6a";
+}
+.klassicon-demands:before {
+  content: "\6b";
+}
+.klassicon-add-note:before {
+  content: "\6c";
+}
+.klassicon-add-reaction:before {
+  content: "\6d";
+}
+.klassicon-demands-off:before {
+  content: "\6e";
+}
+.klassicon-personnal-informations:before {
+  content: "\6f";
+}
+.klassicon-write-message:before {
+  content: "\70";
+}
+.klassicon-play:before {
+  content: "\71";
+}
+.klassicon-empty:before {
+  content: "\72";
+}
+.klassicon-attendance:before {
+  content: "\73";
+}
+.klassicon-attendance-register:before {
+  content: "\74";
+}
+.klassicon-image:before {
+  content: "\75";
+}
+.klassicon-poll:before {
+  content: "\76";
+}
+.klassicon-profile-picture:before {
+  content: "\77";
+}
+.klassicon-link:before {
+  content: "\78";
+}
+.klassicon-back:before {
+  content: "\79";
+}
+.klassicon-billings:before {
+  content: "\7a";
+}
+.klassicon-list:before {
+  content: "\41";
+}
+.klassicon-reorder:before {
+  content: "\42";
+}
+.klassicon-school-informations:before {
+  content: "\43";
+}
+.klassicon-location-filled:before {
+  content: "\44";
+}
+.klassicon-campaign:before {
+  content: "\45";
+}
+.klassicon-close:before {
+  content: "\46";
+}
+.klassicon-location-stroke:before {
+  content: "\47";
+}
+.klassicon-search:before {
+  content: "\48";
+}
+.klassicon-logout:before {
+  content: "\4a";
+}
+.klassicon-comments:before {
+  content: "\4b";
+}
+.klassicon-conversations:before {
+  content: "\4c";
+}
+.klassicon-menu:before {
+  content: "\4d";
+}
+.klassicon-students:before {
+  content: "\4f";
+}
+.klassicon-my-classes:before {
+  content: "\50";
+}
+.klassicon-customize:before {
+  content: "\51";
+}
+.klassicon-settings:before {
+  content: "\49";
+}
+.klassicon-multimedia-campaign:before {
+  content: "\4e";
+}
+.klassicon-sms-campaign:before {
+  content: "\52";
+}
+.klassicon-check:before {
+  content: "\54";
+}
+.klassicon-optimized-campaign:before {
+  content: "\55";
+}
+.klassicon-send:before {
+  content: "\56";
+}
+.klassicon-import-manually:before {
+  content: "\57";
+}
+.klassicon-csv-file:before {
+  content: "\58";
+}
+.klassicon-delete:before {
+  content: "\59";
+}
+.klassicon-camera:before {
+  content: "\5a";
+}
+.klassicon-sms-credits-1:before {
+  content: "\53";
+}
+.klassicon-sms-credits-2:before {
+  content: "\30";
+}
+.klassicon-sms-credits-3:before {
+  content: "\31";
+}
+.klassicon-audio:before {
+  content: "\32";
+}
+.klassicon-document:before {
+  content: "\33";
+}
+.klassicon-list-1:before {
+  content: "\34";
+}
+.klassicon-location:before {
+  content: "\35";
+}
+.klassicon-photo-camera:before {
+  content: "\36";
+}
+.klassicon-poll-1:before {
+  content: "\37";
+}
+.klassicon-video:before {
+  content: "\38";
+}
+.klassicon-event:before {
+  content: "\39";
+}
+.klassicon-edit:before {
+  content: "\21";
+}
+.klassicon-sport:before {
+  content: "\22";
+}
+.klassicon-gift:before {
+  content: "\23";
+}
+.klassicon-appointment-active:before {
+  content: "\24";
+}

@@ -1,0 +1,149 @@
+$font-medium: 'GalanoGrotesque';
+@import '../../../../../themes/light/colors';
+
+.signup-success-form {
+  .signup-success-form__header1 {
+    height: 18px;
+    opacity: 0.5;
+    font-family: $font-medium;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: $color-clear-blue;
+  }
+  .signup-success-form__header2 {
+    height: 36px;
+    font-family: $font-medium;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: -0.7px;
+    margin-bottom: 30px;
+  }
+  .signup-success-form__header3 {
+    width: 100%;
+    max-width: 450px;
+    height: 67px;
+    font-family: $font-medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: -0.8px;
+    color: rgba(46, 59, 80, 0.6);
+    margin-top: -20px;
+    margin-bottom: 30px;
+    .selected {
+      color: $color-dark-grey-blue;
+    }
+  }
+  .signup-success-form__body {
+    width: 490px;
+    height: 204px;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+    background-color: $color-background;
+    box-sizing: border-box;
+    padding: 34px 30px 30px 30px;
+    margin-bottom: 100px;
+    .add-button {
+      width: 430px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: $color-clear-blue;
+      margin-top: 30px;
+      color: $color-text-light;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .make-photo {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+
+  .signup-success-form__photo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .signup-success-form__photo-fullname {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "GalanoGrotesque";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.6px;
+    color: #2e3b50;
+    margin-left: 10px;
+  }
+  .signup-success-form__position {
+
+    height: 16px;
+    font-family: $font-medium;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.4px;
+    color: rgba(46, 59, 80, 0.6);
+    margin-top: 6px;
+  }
+
+  .signup-success-form__phone {
+    height: 16px;
+    font-family: $font-medium;
+    font-size: 14px;
+    font-weight: 500;
+
+    line-height: 1.14;
+    letter-spacing: -0.4px;
+    color: rgba(46, 59, 80, 0.6);
+    margin-top: 6px;
+  }
+  .signup-success-form__container {
+    width: 100%;
+    margin-top: 20px;
+    .btn {
+      width: 100%;
+    }
+  }
+  .signup-success-form__book{
+    position: absolute;
+    left: 51px;
+    bottom: 0;
+  }
+  .signup-success-form__illustration{
+    position: absolute;
+    bottom: 0;
+    right: 108px;
+  }
+  .signup-success-form__unicorn-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 5px;
+  }
+  .signup-success-form__unicorn-1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 5px;
+  }
+}

@@ -1,0 +1,33 @@
+.inside-class-item {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 23px;
+  transition: all 0.2s linear;
+}
+.inside-class-item--show-comments {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  margin-top: 0;
+  max-width: unset;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(#000, 0.5);
+  .inside-class-item__spec {
+    max-height: 100%;
+    width: 450px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    background: #fff;
+  }
+}
+.inside-class-item--hidden {
+  opacity: 0;
+}

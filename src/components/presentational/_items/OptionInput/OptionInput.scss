@@ -1,0 +1,32 @@
+.option-input {
+  display: grid;
+  grid-template-columns: 50px calc(100% - 100px) 50px;
+  align-items: center;
+  border: 1px solid transparent;
+  .klassicon-close {
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .klassicon-reorder {
+    font-size: 25px;
+    text-align: center;
+    cursor: move;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-input-text2 {
+    width: 100%;
+  }
+  .form-input-text2 {
+    margin-bottom: 0;
+  }
+}
+.option-input__dragged {
+  width: 500px;
+  background: #fff;
+  border: 1px solid #333;
+}

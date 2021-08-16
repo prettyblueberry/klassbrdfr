@@ -1,0 +1,78 @@
+.recharge-history-list {
+  width: 100%;
+}
+.recharge-history-header {
+  display: grid;
+  grid-template-columns: 200px 110px 200px auto 60px;
+  grid-template-rows: 1fr;
+  height: 60px;
+  align-items: center;
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: -0.4px;
+  color: rgba(#2d3a53, 0.6);
+  text-align: center;
+}
+
+.recharge-history-item {
+  display: grid;
+  grid-template-columns: 200px 110px 200px auto 60px;
+  grid-template-rows: 1fr;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  background-color: #f9fafc;
+  &:nth-of-type(odd) {
+    background-color: #fff;
+  }
+}
+.recharge-history-item__package {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.56;
+  letter-spacing: -0.5px;
+  color: #2e3b50;
+}
+.recharge-history-item__date {
+  font-family: GalanoGrotesque;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.93;
+  letter-spacing: -0.4px;
+  color: #2e3b50;
+}
+.recharge-history-item__credits {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.56;
+  letter-spacing: -0.5px;
+  color: #1f9aff;
+}
+.recharge-history-item__price {
+  font-family: GalanoGrotesque;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.56;
+  letter-spacing: -0.5px;
+  color: #2b355a;
+}
+.recharge-history-item__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+
+.relative-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // padding: 0 20px;
+  // margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+
+}
+.relative-user__checkbox {
+  margin-right: 15px;
+}
+.relative-user__names {
+  padding: 0 15px;
+  width: 100%;
+
+  * {
+    font-family: Galano medium;
+  }
+
+}
+.relative-user__father {
+  color: rgba(44, 56, 86, 0.4);
+  font-size: 11px;
+}
+.relative-user__child{
+
+  color: rgba(44, 56, 86, 0.6);
+
+  b {
+    color: rgba(44, 56, 86, 1);
+  }
+}
+.relative-user__type {
+  color: #ffb624;
+}
+
+.relative-user__date {
+  color: gray;
+  font-size: 11px;
+  text-align: right;
+}
+
+.relative-user__text{
+  border-left: 2px #b7bcc5 solid;padding: 5px;margin-top: 10px;color:#b7bcc5
+}
